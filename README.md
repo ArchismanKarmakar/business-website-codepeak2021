@@ -7,8 +7,7 @@
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ## This project is for getting a business ready website for ITC Hotels team. So, let's get started. It will be a very good practice. So, let's begin!
-#
-#
+
 
 # Introduction to ITCH Team
 #
@@ -136,7 +135,7 @@ You can learn more about Git and GitHub here:
         $ gem install bootstrap -v 5.1.3
  ```
  ##### CDN via jsDelivr
- #
+ 
  ```
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         
