@@ -9,7 +9,7 @@
 ## This project is for getting a business ready website for ITC Hotels team. So, let's get started. It will be a very good practice. So, let's begin!
 #
 #
------------------
+
 # Introduction to ITCH Team
 #
 ##### ITC Hotels is India's fifth largest hotel chain with over 100 hotels based out of Gurugram, Haryana. It is a part of the ITC Limited group of companies. ITC Hotels is regularly voted amongst the best employers in Asia in the hospitality sector. [Wikipedia](https://en.wikipedia.org/wiki/ITC_Hotels)
@@ -20,7 +20,7 @@
 - Number of locations: 70+
 - Parent organization: ITC Limited
 - Subsidiary: Sheraton New Delhi Hotel
--------------------------
+
 # PROJECT DETAILS
 #
 ## Get Started
