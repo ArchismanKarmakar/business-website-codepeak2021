@@ -28,6 +28,7 @@
 - MongoDB
 - ReactJS
 - Express
+- Firebase
 #
 ### Tasks
 - ##### Make the website Responsive.![]() ![](https://img.shields.io/badge/Difficulty-Moderate-yellow)
