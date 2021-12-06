@@ -2,7 +2,17 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-![](https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg)![](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg)![](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg)![](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg)![](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg)![](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg)![](https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg)![](https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg)![](https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg)![](https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg)![](https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg)![](https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg)
+![HTML5](https://img.shields.io/endpoint?label=HTML5&logo=html5&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
+![CSS3](https://img.shields.io/endpoint?label=CSS3&logo=css3&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
+![Postman](https://img.shields.io/endpoint?label=Postman&logo=postman&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
+![REACT](https://img.shields.io/endpoint?label=REACT&logo=react&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
+![Javascript](https://img.shields.io/endpoint?label=JavaScript&logo=javascript&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
+![NodeJS](https://img.shields.io/endpoint?label=Nodejs&logo=nodedotjs&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
+![Git](https://img.shields.io/endpoint?label=Git&logo=git&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
+![MongoDB](https://img.shields.io/endpoint?label=MongoDB&logo=mongodb&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
+![Firebase](https://img.shields.io/endpoint?label=firebase&logo=firebase&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
+![Express](https://img.shields.io/endpoint?label=Express&logo=express&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
+![GitHub](https://img.shields.io/endpoint?label=Github&logo=github&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
 
 ## This project is for getting a business ready website for ITC Hotels team. So, let's get started. It will be a very good practice. So, let's begin!
 
