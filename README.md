@@ -1,4 +1,4 @@
-# ITC-hotels-codepeak2021
+# Making business Website similar to ITC-hotels-codepeak2021
 
 # ITC Hotels Website
 ## _Edited with VS Code, edited by Archisman Karmakar_
