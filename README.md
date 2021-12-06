@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+(https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg)(https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg)(https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg)(https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg)(https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg)(https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg)(https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg)(https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg)(https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg)(https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg)(https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg)(https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg)
+
 ## This project is for getting a business ready website for ITC Hotels team. So, let's get started. It will be a very good practice. So, let's begin!
 
 ## ⭐ How to get started?
