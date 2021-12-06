@@ -1,9 +1,5 @@
 # Making business Website similar to ITC-hotels-codepeak2021
 
-# ITC Hotels Website Clone website
-## _Edited with VS Code, edited by Archisman Karmakar_
-
-
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ## This project is for getting a business ready website for ITC Hotels team. So, let's get started. It will be a very good practice. So, let's begin!
