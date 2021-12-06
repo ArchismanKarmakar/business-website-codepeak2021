@@ -15,7 +15,7 @@
 ![GitHub](https://img.shields.io/endpoint?label=Github&logo=github&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
 ![VS Code](https://img.shields.io/endpoint?label=VS%20Code&logo=visualstudiocode&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
 
-## This project is for getting a business ready website for ITC Hotels team. So, let's get started. It will be a very good practice. So, let's begin!
+## This project is for getting a hotel business ready website similar to ITC Hotels website. So, let's get started. It will be a very good practice. So, let's begin!
 
 ## ⭐ How to get started?
 
