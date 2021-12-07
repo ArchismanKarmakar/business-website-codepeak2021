@@ -28,14 +28,14 @@ You can refer to the following articles on the basics of Git and Github and also
 - Add Screenshots to help us know what this Script is all about.
 
 ### Scoring criteria : 
-- For merging very easy issue assign 1 points.
+- For merging very easy issue assign 1 point.
 - For merging easy issue assign 3-4 points.
 - For merging MED issue assign 5-7 points.
 - For merging hard issue assign 10-12 points.
 - For merging extremely hard issue assign 15-20 points.
-- For merging 1-point issue assign 1 points.
-- For pointing a new easy issue assigne 1 point
-- For pointing a new MED/HARD issue assigne 1 point
+- For merging 1-point issue assign 1 point.
+- For pointing a new easy issue assign 1 point
+- For pointing a new MED/HARD issue assign 1 point
 
 
 # Introduction to ITCH Team
@@ -73,8 +73,8 @@ You can refer to the following articles on the basics of Git and Github and also
 - ##### Add a page for Weddings, meet-ups at ITC hotel banquets. ![]() ![](https://img.shields.io/badge/Difficulty-Easy-green)
 - ##### Add a page for SPA & add backend, mention packages, features, details. ![]() ![](https://img.shields.io/badge/Difficulty-VeryEasy-brightgreen)
 - ##### Add a user feedback form & add backend. ![]() ![](https://img.shields.io/badge/Difficulty-Moderate-yellow)
-- ##### Make the club page, add backend to it and link it main website. ![]() ![](https://img.shields.io/badge/Difficulty-Moderate-yellow)
-- ##### Add a section below bookings showing all common features available just on booking on each & every packages.(example: WiFi, Breakfast, Dry Cleaning etc, included in every pack.) ![]() ![](https://img.shields.io/badge/Difficulty-VeryEasy-brightgreen)
+- ##### Make the club page, add backend to it and link it to the main website. ![]() ![](https://img.shields.io/badge/Difficulty-Moderate-yellow)
+- ##### Add a section below bookings showing all common features available just on booking of each & every package.(example: WiFi, Breakfast, Dry Cleaning etc, included in every pack.) ![]() ![](https://img.shields.io/badge/Difficulty-VeryEasy-brightgreen)
 
 ## Setting up softwares
 
