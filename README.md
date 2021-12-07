@@ -29,10 +29,10 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ### Codepeak-2021 scoring criteria : 
 - For merging very easy issue assign 1 points.
-- For merging easy issue assign 5 points.
-- For merging MED issue assign 10 points.
-- For merging hard issue assign 15 points.
-- For merging extremely hard issue assign 20 points.
+- For merging easy issue assign 3 points.
+- For merging MED issue assign 5 points.
+- For merging hard issue assign 10 points.
+- For merging extremely hard issue assign 15-20 points.
 - For merging 1-point issue assign 1 points.
 - For pointing a new easy issue assigne 1 point
 - For pointing a new MED/HARD issue assigne 1 point
