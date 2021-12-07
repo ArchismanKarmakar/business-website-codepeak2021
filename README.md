@@ -36,6 +36,7 @@ You can refer to the following articles on the basics of Git and Github and also
 - For merging 1-point issue assign 1 points.
 - For pointing a new easy issue assigne 1 point
 - For pointing a new MED/HARD issue assigne 1 point
+- For pointing bug assigne 1-2 points.
 
 
 # Introduction to ITCH Team
