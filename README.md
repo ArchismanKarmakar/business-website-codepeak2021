@@ -2,18 +2,6 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-![HTML5](https://img.shields.io/endpoint?label=HTML5&logo=html5&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
-![CSS3](https://img.shields.io/endpoint?label=CSS3&logo=css3&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
-![Postman](https://img.shields.io/endpoint?label=Postman&logo=postman&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
-![REACT](https://img.shields.io/endpoint?label=REACT&logo=react&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
-![Javascript](https://img.shields.io/endpoint?label=JavaScript&logo=javascript&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
-![NodeJS](https://img.shields.io/endpoint?label=Nodejs&logo=nodedotjs&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
-![Git](https://img.shields.io/endpoint?label=Git&logo=git&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
-![MongoDB](https://img.shields.io/endpoint?label=MongoDB&logo=mongodb&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
-![Firebase](https://img.shields.io/endpoint?label=firebase&logo=firebase&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
-![Express](https://img.shields.io/endpoint?label=Express&logo=express&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
-![GitHub](https://img.shields.io/endpoint?label=Github&logo=github&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
-![VS Code](https://img.shields.io/endpoint?label=VS%20Code&logo=visualstudiocode&style=for-the-badge&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
 
 ## This project is for getting a hotel business ready website similar to ITC Hotels website. So, let's get started. It will be a very good practice. So, let's begin!
 
