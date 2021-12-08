@@ -10,7 +10,7 @@
 .header {
     border: 2px solid rgb(255, 94, 0);
     background-color: rgb(255, 255, 255);
-    font-size: 33px;
+    font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
     margin: auto;
@@ -18,35 +18,13 @@
     border-radius: 2px;
 }
 
-.menu {
-    margin: 10px;
-    margin-left: 0px;
-    /* border: 2px solid red; */
-    padding: -27px;
-    padding-right: 39px;
-    /* display: inline-block; */
-    padding-right: 43px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    border-radius: 4px;
-    background-color: rgb(233, 233, 233);
-    float: left;
-}
-
-.menu a {
-    text-decoration: none;
-}
-
-.menu li {
-    list-style: none;
-    text-decoration: none;
-}
-
 .item {
-    margin: 30px;
-    text-decoration: none;
-    padding: 16px;
+    margin: 5px;
     border-radius: 3px;
+}
+
+.item a {
+    color: #fff !important;
 }
 
 .item:hover {
@@ -58,36 +36,55 @@
 .gallery {
     /* float: right; */
     font-size: 22px;
-    padding-right: 132px;
-    padding-left: 437px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10%;
+    padding-left: 35%;
     text-align: justify;
 }
 
-.list {
-    text-decoration: none;
-}
-
 .image {
-    padding-left: 146px;
     margin: 15px;
 }
 
 .gif {
     display: block;
-    padding: 16px;
+    padding: 10px;
     margin: 10px;
-    padding-left: 203px;
+}
+
+img {
+    width: 300px;
 }
 
 .container {
-    margin: 5px;
-    padding-left: 10px;
-    padding-right: 0px;
+    margin: 10px;
     font-size: 26px;
     text-align: justify;
+    width: 340px;
     background: rgba(255, 255, 255, 0.7);
     /* white background with 50% opacity */
     padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 762px) {
+    img {
+        min-width: 710px;
+    }
+
+    .container {
+        min-width: 750px;
+    }
+}
+
+@media only screen and (min-width: 1124px) {
+    img {
+        min-width: 1080px;
+    }
+
+    .container {
+        min-width: 1100px;
+    }
 }
 
 footer {

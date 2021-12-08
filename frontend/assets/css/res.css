@@ -15,37 +15,16 @@
     margin: auto;
     text-align: center;
     border-radius: 2px;
-}
-
-.menu {
-    margin: 10px;
-    margin-left: 0px;
-    /* border: 2px solid red; */
-    padding: -27px;
-    padding-right: 39px;
-    /* display: inline-block; */
-    padding-right: 43px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    border-radius: 4px;
-    background-color: rgba(233, 233, 233, 0.1);
-    float: left;
-}
-
-.menu a {
-    text-decoration: none;
-}
-
-.menu li {
-    list-style: none;
-    text-decoration: none;
+    color: white;
 }
 
 .item {
-    margin: 30px;
-    text-decoration: none;
-    padding: 16px;
+    margin: 5px;
     border-radius: 3px;
+}
+
+.item a {
+    color: #fff !important;
 }
 
 .item:hover {
@@ -56,8 +35,10 @@
 
 .gallery {
     margin: 5px;
-    padding-left: 416px;
-    padding-right: 58px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30%;
+    padding-right: 5%;
     font-size: 26px;
     text-align: justify;
     background: rgba(255, 255, 255, 0.7);
@@ -65,22 +46,11 @@
     padding-bottom: 100px;
 }
 
-.list {
-    text-decoration: none;
-}
-
 .image {
-    padding-left: 146px;
-    padding-right: 580px;
+    padding-left: 5%;
+    padding-right: 5%;
     margin: 15px;
     background: rgba(255, 255, 255, 0.7);
-}
-
-.gif {
-    display: block;
-    padding: 16px;
-    margin: 10px;
-    padding-left: 203px;
 }
 
 footer {
@@ -88,4 +58,11 @@ footer {
     padding: 3px;
     background-color: rgb(95, 95, 95);
     color: white;
+}
+
+@media only screen and (min-width: 862px) {
+    .image {
+        width: 800px !important;
+        height: 450px !important;
+    }
 }
