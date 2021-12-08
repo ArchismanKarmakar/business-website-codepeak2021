@@ -1,7 +1,8 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const path = require('path');
+const cookieParser = require("cookie-parser");
 
+require('./config/db');
 const app = express();
 
 // Routers
@@ -10,7 +11,10 @@ const userRouter = require('./routes/user');
 
 // Static files
 const assetsPath = path.join(__dirname, '../frontend', 'assets');
-app.use(express.static(assetsPath))
+app.use(express.static(assetsPath));
+
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
 
 app.use('/', indexRouter);
 app.use('/user', userRouter);
