@@ -1,0 +1,681 @@
+[{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6359"
+  },
+  "features": [
+    "Preferred residence of heads of state & world leaders",
+    "LEED® platinum rated hotel",
+    "Award winning cuisine offerings"
+  ],
+  "name": "ITC Maurya, New Delhi",
+  "description": "Located in the Diplomatic Enclave, ITC Maurya is a… winning cuisine, exquisite accommodation & more.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac635a"
+  },
+  "features": [
+    "1214056 sq. m. of serenity - a short drive from Delhi",
+    "Ideal for destination weddings",
+    "LEED® Platinum rated retreat"
+  ],
+  "name": "ITC Grand Bharat Retreat, Gurugram",
+  "description": "A tribute to the glory of India & set amidst the A…ourse, exquisite culinary & wellness experiences.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac635b"
+  },
+  "features": [
+    "Indo-Portuguese village style architecture",
+    "Kaya Kalp - The Royal Spa",
+    "6 Exotic dining destinations"
+  ],
+  "name": "ITC Grand Goa Resort & Spa, Goa",
+  "description": "Nestled in serene south Goa, amidst 1,82,109 m² of…ffers direct access to the pristine Arossim beach",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac635c"
+  },
+  "features": [
+    "LEED® Platinum rated hotel: 100% powered by renewable energy",
+    "Amongst the country's largest pillar less banquet halls"
+  ],
+  "name": "ITC Grand Chola, Chennai",
+  "description": "Celebrating the glory of the Chola dynasty, the ho… expansive banqueting, signature wellness & more.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac635d"
+  },
+  "features": [
+    "380 spacious rooms & suites",
+    "Award winning cuisine offerings",
+    "LEED® Platinum rated hotel"
+  ],
+  "name": "ITC Maratha, Mumbai",
+  "description": "Inspired by the Maratha dynasty & located close to…es with vintage charm and contemporary efficiency",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac635e"
+  },
+  "features": [
+    "LEED® Platinum rated hotel.",
+    "242 rooms & suites, signature dining & wellness offerings.",
+    "Blend of Victorian heritage & contemporary design."
+  ],
+  "name": "ITC Grand Central, Mumbai",
+  "description": "Inspired by Victorian architecture of old Bombay, …l & offers breath-taking views of the city & sea.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac635f"
+  },
+  "features": [
+    "Located in the heart of the City",
+    "Select rooms & suites with personal balconies",
+    "LEED® Platinum rated Hotel: 100% powered by renewable energy"
+  ],
+  "name": "ITC Gardenia, Bengaluru",
+  "description": "A tribute to the gardens of Bengaluru, ITC Gardeni… spaces, signature gourmet & wellness experiences",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6360"
+  },
+  "features": [
+    "LEED® Platinum rated hotel",
+    "Select rooms & suites offer garden access.",
+    "Award winning cuisine offerings",
+    "Kaya Kalp - The Spa"
+  ],
+  "name": "ITC Windsor, Bengaluru",
+  "description": "Inspired to resonate with a timeless English manor…rvice standards to create distinctive experiences",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6361"
+  },
+  "features": [
+    "LEED® Platinum rated hotel.",
+    "274 oversized smart rooms & suites. (with some featuring a balcony)",
+    "Award winning cuisine offerings."
+  ],
+  "name": "ITC Kohenur, Hyderabad",
+  "description": "Located in the heart of Hyderabad’s HITEC City & o…ohenur is an ode to rare & priceless experiences.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6362"
+  },
+  "features": [
+    "188 rooms & suites, some offering views of the Hussain Sagar Lake",
+    "Award winning cuisine",
+    "LEED® Platinum rated Hotel."
+  ],
+  "name": "ITC Kakatiya, Hyderabad",
+  "description": "ITC Kakatiya recreates an ambience with gentle ech…inning cuisine, Signature spa experiences & more.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6363"
+  },
+  "features": [
+    "456 rooms, suites & service apartments.",
+    "5 dining destinations.",
+    "5,630 square meter of banqueting space."
+  ],
+  "name": "ITC Royal Bengal, Kolkata",
+  "description": "Located in the emerging & commercial district of K… ode to the region’s cultural heritage & lineage.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6364"
+  },
+  "features": [
+    "LEED® Platinum rated hotel - 1st Luxury hotel in the world to earn carbon credits under the carbon trading regime",
+    "Award winning cuisine offerings",
+    "Kaya Kalp - The Spa"
+  ],
+  "name": "ITC Sonar, Kolkata",
+  "description": "Built like a business resort, ITC Sonar elegantly …es fluently to bring alive the essence of Kolkata",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6365"
+  },
+  "features": [
+    "93077 sq. m. LEED® Platinum rated resort with sprawling gardens & scenic waterbodies.",
+    "Ideal for getaways, company off-sites, destination weddings"
+  ],
+  "name": "ITC Mughal Resort & Spa, Agra",
+  "description": "Winner of the Aga Khan Award for Architectural exc…uses the awe inspiring Kaya Kalp - The Royal Spa.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6366"
+  },
+  "features": [
+    "LEED® Platinum rated hotel",
+    "Perfect blend of Rajasthani architecture & Rajput Hospitality",
+    "Award winning cuisine"
+  ],
+  "name": "ITC Rajputana, Jaipur",
+  "description": "Designed along the lines of a traditional haveli w…e city & offers authentic indigenous experiences.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6367"
+  },
+  "features": [
+    "Located in the Business and Commercial district of South Delhi - Saket",
+    "220 rooms offering modern amenities and facilities",
+    "Celebrated dining destinations"
+  ],
+  "name": "Sheraton New Delhi",
+  "description": "Located in the heart of South Delhi, the hotel is …oms, signature dining options, bespoke banqueting",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6368"
+  },
+  "features": [
+    "Modern and contemporary hotel located in the heart of city",
+    "129 Spacious Rooms, Suites and Studio Apartments",
+    "Multiple Banquets and Conference Venues available"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Ashram Road, Ahmedabad",
+  "description": "Located near Sabarmati riverfront, Welcomhotel Ahm…historic and culturally rich city to the fullest.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6369"
+  },
+  "features": [
+    "LEED® Platinum rated hotel",
+    "Signature dining experiences",
+    "Bespoke wellness: K by Kaya Kalp"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Raja Sansi, Amritsar",
+  "description": "Spread across 32374 sq. m & built around a colonna…histicated facilities amid tranquil surroundings.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac636a"
+  },
+  "features": [
+    "Encompasses 52609 sq. m of lush green gardens.",
+    "Largest pillar less banquet hall in the city.",
+    "Speciality Cuisine"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Rama International, Aurangabad",
+  "description": "With a distinctive character; Welcomhotel Rama Int…rn amenities and the warmth of Indian hospitality",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac636b"
+  },
+  "features": [
+    "Conveniently located only 8.1 kms from the airport",
+    "Spacious, stylish rooms & suites",
+    "Excellent meeting & banqueting facilities"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Bhubaneswar",
+  "description": "A visual and architectural tribute to the cultural… for both business and leisure trips to the city.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac636c"
+  },
+  "features": [
+    "Modern Hotel in the Heart of the City",
+    "Smart & spacious rooms",
+    "Bespoke Wellness: K by Kaya Kalp"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Richmond Road, Bengaluru",
+  "description": "Located in the heart of the garden city, the hotel…appointed accommodation, signature dining & more.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac636d"
+  },
+  "features": [
+    "Luxurious guest rooms with private balcony offering a stunning view of mighty mountains & lush green valley",
+    "Signature Dining Options"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Tavleen, Chail",
+  "description": "Set amongst a picture-perfect backdrop, Welcomhote…ality and a multitude of breath taking panoramas.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac636e"
+  },
+  "features": [
+    "Located in the heart of the city",
+    "Boutique Hotel experience",
+    "Speciality Cuisine"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Cathedral Road, Chennai",
+  "description": "Conveniently located in the central business hub o…es, speciality cuisine, elegant banqueting & more",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac636f"
+  },
+  "features": [
+    "Large Rooms with Modern Luxuries",
+    "Close proximity to Mahindra World City, Oragadam Industrial Area"
+  ],
+  "name": "Welcomhotel by ITC Hotels, GST Road, Chennai",
+  "description": "Conveniently located in the neighborhood of a bust…ion, exquisite dining, spa & elaborate banqueting",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6370"
+  },
+  "features": [
+    "Modern City Centre Hotel with Local inspiration",
+    "Smart, spacious rooms - in room controls through an app",
+    "Speciality Cuisine"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Race Course, Coimbatore",
+  "description": "Located in the heart of Kovai city, Welcomhotel Co…design, state-of-the-art amenities & experiences.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6371"
+  },
+  "features": [
+    "Centrally located, with commanding views of the city’s skyline.",
+    "Beautifully appointed rooms and suites, with superb amenities.",
+    "Restaurants, banqueting, a spa set amid cool and airy interiors."
+  ],
+  "name": "Welcomhotel by ITC Hotels, Guntur",
+  "description": "A warm & elegant host, Welcomhotel Guntur is inspi…, metal work & specially designed light fixtures.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6372"
+  },
+  "features": [
+    "Large Rooms with modern luxuries",
+    "Signature dining options",
+    "Features desert wild-life safaris"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Jodhpur",
+  "description": "A tribute to the city of Jodhpur, Welcomhotel Jodh…iences. A range of leisure activities available..",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6373"
+  },
+  "features": [
+    "Only 3.2 km from Ban Ganga - the starting point of the Mata Vaishno Devi pilgrimage.",
+    "Located close to scenic tourist attractions",
+    "Wellness facilities, banqueting venues & more"
+  ],
+  "name": "Welcomhotel By ITC Hotels, Katra",
+  "description": "A warm & welcoming hotel, with breath-taking mount…n, contemporary facilities & delectable cuisines.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6374"
+  },
+  "features": [
+    "Plush guest rooms with stunning views",
+    "Beach access",
+    "Enticing recreation & leisure activities"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Kences Palm Beach, Mamallapuram-Chennai",
+  "description": "Perfect blend of comfort, privacy & sea side seren…resort brings you close to the ancient monuments.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6375"
+  },
+  "features": [
+    "89 quaint & majestic rooms, suites & huts",
+    "Ideal for destination weddings",
+    "Just a short drive from Jodhpur"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Fort & Dunes, Khimsar",
+  "description": "A tryst with a 15th century fort or an exotic inte…ajasthan or both. Warm Rajput hospitality awaits.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6376"
+  },
+  "features": [
+    "Built in 1902 - Gothic architecture",
+    "Plush accommodation & dining offerings",
+    "Delightful leisure experiences & activities"
+  ],
+  "name": "Welcomhotel by ITC Hotels, The Savoy, Mussoorie",
+  "description": "With a regal history spanning over a century & a s…ul mix of old-world charm & new-age conveniences.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6377"
+  },
+  "features": [
+    "In close Proximity to the airport",
+    "392 Spacious Rooms and Suites",
+    "Speciality Cuisine Offerings"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Dwarka, New Delhi",
+  "description": "Located in the heart of Asia's largest sub-city - …nriching experiences to the discerning traveller.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6378"
+  },
+  "features": [
+    "Authentic Kashmiri architecture",
+    "Rooms with picturesque Views",
+    "Proximity to the golf course"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Pine N Peak, Pahalgam",
+  "description": "Located atop the Rajwas Plateau, the resort offers…tiful city of Pahalgam in the most pristine form.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6379"
+  },
+  "features": [
+    "Boutique Hotel Experience",
+    "Select Rooms with Pool",
+    "Ideal stopover on route to the hills"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Bella Vista, Panchkula - Chandigarh",
+  "description": "Located in Panchkula, offering a spectacular view …dining options & an array of wellness facilities.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac637a"
+  },
+  "features": [
+    "Centrally located with stunning sea views",
+    "Recently renovated public areas",
+    "A host of leisure & recreation activities"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Bay Island, Port Blair",
+  "description": "Amidst the mesmerizing landscapes & built as a ser… Bay of Bengal & offers joyful island experiences",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac637b"
+  },
+  "features": [
+    "City centre hotel",
+    "Large spacious rooms with modern amenities",
+    "Speciality Cuisine Offerings"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Alkapuri, Vadodara",
+  "description": "In an ambience steeped in history, complemented by…lity in an experience that is unmistakably grand.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac637c"
+  },
+  "features": [
+    "10 kms from Shimla",
+    "Mesmerizing forest & mountain views",
+    "A host of leisure & recreation activities"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Shimla",
+  "description": "Nestled amongst the evergreen forests of the lower…in views, premium interiors and flawless service.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac637d"
+  },
+  "features": [
+    "Spacious Rooms & suites",
+    "16 km from the airport"
+  ],
+  "name": "Welcomhotel by ITC Hotels, Devee Grand Bay, Visakhapatnam",
+  "description": "Perched on a hilltop just 100m from the sea, the h… the leading choice for the discerning traveller.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac637e"
+  },
+  "features": [
+    "Delectable Dining Options",
+    "Spacious Rooms",
+    "Gym"
+  ],
+  "name": "Fortune Inn Haveli, Gandhinagar",
+  "description": "Fortune Inn Haveli is a full-service hotel located…vices, making your stay a pleasurable experience.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac637f"
+  },
+  "features": [
+    "Delectable Dining options",
+    "Spacious Rooms",
+    "Gym"
+  ],
+  "name": "Fortune Resort Heevan, Srinagar",
+  "description": "Set in the picturesque valley of Srinagar with a m… Kashmiri architecture with new-age conveniences.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6380"
+  },
+  "features": [
+    "Delectable Dining options",
+    "Spacious Rooms",
+    "Gym & Swimming Pool"
+  ],
+  "name": "Fortune Park Airport Road, Hubballi",
+  "description": "Fortune Park Airport Road, Hubballi is strategical…key shopping locations and monuments of the city.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6381"
+  },
+  "features": [
+    "Delectable Dining options",
+    "Spacious Rooms",
+    "Gym"
+  ],
+  "name": "Fortune Park Panchwati, Kolkata",
+  "description": "Fortune Park Panchwati is an upscale hotel located…y to key places, discover Kolkata in a new light.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6382"
+  },
+  "features": [
+    "Swimming Pool",
+    "Spa",
+    "Gym"
+  ],
+  "name": "Fortune Park Sishmo, Bhubaneswar",
+  "description": "Fortune Park Sishmo is a centrally located, full s…tivity, a choice a dining options, and much more.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6383"
+  },
+  "features": [
+    "Delectable Dining options",
+    "Spacious Rooms",
+    "Banqueting options"
+  ],
+  "name": "Fortune Landmark, Ahmedabad",
+  "description": "Located in the heart of the city, Fortune Landmark…combining comfort of home with efficient service.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6384"
+  },
+  "features": [
+    "Delectable Dining",
+    "Spacious Rooms",
+    "Outdoor Lawns"
+  ],
+  "name": "Fortune Park Galaxy, Vapi",
+  "description": "Fortune Park Galaxy, conveniently located in the h… the excellent range of guest facilities offered.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6385"
+  },
+  "features": [
+    "Delectable Dining",
+    "Spacious Rooms",
+    "Outdoor Lawns"
+  ],
+  "name": "Fortune Inn Promenade, Vadodara",
+  "description": "Located near Akota Gardens, Fortune Inn Promenade …areas and tourist attractions in close proximity.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6386"
+  },
+  "features": [
+    "Delectable Dining options",
+    "Spacious Rooms",
+    "Gym"
+  ],
+  "name": "Fortune Park, Ahmedabad",
+  "description": "A contemporary business hotel located centrally in…and warm and efficient service to all its guests.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6387"
+  },
+  "features": [
+    "Delectable Dining",
+    "Gym",
+    "Swimming Pool"
+  ],
+  "name": "Fortune Pandiyan Hotel, Madurai",
+  "description": "Set amidst 12140 square meter of landscaped garden…ai for pilgrims, tourists and business travelers.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6388"
+  },
+  "features": [
+    "Delectable Dining Options",
+    "Well-appointed and Spacious Suites",
+    "Fortune Club Lounge"
+  ],
+  "name": "Fortune Select Exotica, Navi Mumbai",
+  "description": "Located in the Vashi hub of Navi Mumbai just 25 km… delectable dining and warm personalized service.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6389"
+  },
+  "features": [
+    "Delectable Dining options",
+    "Swimming Pool",
+    "In House Gym"
+  ],
+  "name": "Fortune Park BBD, Lucknow",
+  "description": "A contemporary full-service business hotel conveni…for the discerning business and leisure traveler.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac638a"
+  },
+  "features": [
+    "Delectable Dining Options",
+    "Swimming Pool",
+    "In House Gym"
+  ],
+  "name": "Fortune Miramar, Goa",
+  "description": "A contemporary hotel for the modern day traveler, …f dining outlets and a fully-equipped board room.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac638b"
+  },
+  "features": [
+    "Delectable Dining",
+    "Spacious Rooms",
+    "Outdoor Lawns"
+  ],
+  "name": "Fortune Select Global, Gurugram",
+  "description": "Fortune Select Global is an upscale, first class, full service business hotel in Gurgaon.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac638c"
+  },
+  "features": [
+    "96 well-appointed room, suites & chalets",
+    "Ideal for destination weddings",
+    "Delectable Dining options"
+  ],
+  "name": "Fortune Resort Benaulim Goa",
+  "description": "A leisurely walk from the pristine Benaulim Beach,…ination for weddings and a balmy tropical holiday",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac638d"
+  },
+  "features": [
+    "Delectable Dining options",
+    "Spacious Rooms",
+    "Conference room"
+  ],
+  "name": "Fortune Park Lake City, Thane",
+  "description": "Fortune Park LakeCity, Thane is an upscale, full-s…erfect amalgam of comfort, convenience and value.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac638e"
+  },
+  "features": [
+    "Delectable Dining options",
+    "Spacious Rooms",
+    "Banqueting options"
+  ],
+  "name": "Fortune Inn Valley View, Manipal",
+  "description": "Fortune Inn Valley View, Manipal is a premium, ful…r in the educational hub of the country, Manipal.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac638f"
+  },
+  "features": [
+    "Delectable Dining options",
+    "Spacious Rooms",
+    "Gym"
+  ],
+  "name": "Fortune Park, Haridwar",
+  "description": "Fortune Park, Haridwar is located on NH 58, just 5…i-Fi and banquet facilities for up to 125 guests.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6390"
+  },
+  "features": [
+    "Swimming Pool",
+    "Spa",
+    "Gym"
+  ],
+  "name": "Fortune Park Pushpanjali, Durgapur",
+  "description": "An iconic city landmark, Fortune Park Pushpanjali …hopping complex and key corporate establishments.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b27a20c4fda50760ac6391"
+  },
+  "features": [
+    "Swimming Pool",
+    "Gym",
+    "Spa"
+  ],
+  "name": "Fortune Park Dalhousie",
+  "description": "Overlooking the picturesque Pir-Panjal range. Fort…impeccable services for the discerning traveller.",
+  "__v": 0
+}]
