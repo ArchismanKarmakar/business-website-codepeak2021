@@ -49,7 +49,7 @@ You can refer to the following articles on the basics of Git and Github and also
 - Firebase
 #
 ### SiteMap
-![map](https://user-images.githubusercontent.com/92569441/145590288-574fb04d-fd58-4a3e-b97d-82cf1b87ef3c.png)
+![map](https://user-images.githubusercontent.com/92569441/145590394-73a5533a-b4ff-4d18-9097-92d347030174.png)
 
 
 ### Tasks
