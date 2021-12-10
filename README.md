@@ -46,7 +46,7 @@ You can refer to the following articles on the basics of Git and Github and also
 - MongoDB
 - ReactJS
 - Express
-- Firebase
+- HTML5/CSS3/JavaScript (Basics)
 #
 ### SiteMap
 ![map](https://user-images.githubusercontent.com/92569441/145590394-73a5533a-b4ff-4d18-9097-92d347030174.png)
