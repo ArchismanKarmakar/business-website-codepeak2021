@@ -10,8 +10,12 @@ const indexRouter = require('./routes/index');
 const userRouter = require('./routes/user');
 const feedbackRouter = require('./routes/feedback');
 
+// Set view engine as ejs
+app.set('view engine', 'ejs');
+
 // Static files
 const assetsPath = path.join(__dirname, '../frontend', 'assets');
+app.set('views', path.join(__dirname, '../frontend', 'views'));
 app.use(express.static(assetsPath));
 
 app.use(express.urlencoded({ extended: false }));

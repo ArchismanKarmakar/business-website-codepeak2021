@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITC HOTELS: Our Hotels</title>
+    <link rel="stylesheet" href="css/hotels.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+
+<body class="body">
+
+    <div class="header">
+
+        <h3 class="heading">Our Hotels</h3>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item item">
+                        <a class="nav-link active" href="#">Our Hotels</a>
+                    </li>
+                    <li class="nav-item item">
+                        <a class="nav-link" href="res.html">Restaurant</a>
+                    </li>
+                    <li class="nav-item item">
+                        <a class="nav-link" href="tour.html">Tourism Options</a>
+                    </li>
+                    <li class="nav-item item">
+                        <a class="nav-link" href="Contact.html">Contact us</a>
+                    </li>
+                    <li class="nav-item item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="img">
+                <img src="img/img1.jpg" alt="Hotel image" width="400px" height="300px">
+            </div> -->
+    <div class="container-fluid container">
+        <h3>Our Top Hotels</h3>
+        <ul class="list">
+            <% hotels.forEach(hotel=>{ %>
+                <li>
+                    <%= hotel.name %>
+                </li>
+                <% }) %>
+                    <!-- <li>ITC Gardenia, Bengaluru Luxury</li>
+                    <li>ITC Grand Bharat, Gurgaon Featured</li>
+                    <li>ITC Grand Central, Mumbai Luxury</li>
+                    <li>ITC Grand Chola, Chennai Luxury</li>
+                    <li>ITC Grand Goa Resort & Spa, Goa Featured</li>
+                    <li>ITC Kakatiya, Hyderabad Luxury</li>
+                    <li>ITC Kohenur, Hyderabad Featured</li>
+                    <li>ITC Maratha, Mumbai Luxury</li>
+                    <li>ITC Maurya, New Delhi Luxury</li>
+                    <li>ITC Rajputana, Jaipur Luxury</li>
+                    <li>ITC Royal Bengal, Kolkata New</li>
+                    <li>ITC Sonar, Kolkata Luxury</li>
+                    <li>ITC Windsor, Bengaluru Luxury</li> -->
+        </ul>
+        <table>
+            <caption>Price List for 1 day in INR (exclv. of GST)</caption>
+            <tr>
+                <th>
+                    Features Included
+                </th>
+                <th>
+                    Queen/Twin
+                </th>
+                <th>
+                    Towers Exclusive
+                </th>
+                <th>
+                    Luxury Suite
+                </th>
+            </tr>
+            <tr>
+                <td>Stay only</td>
+                <td>4500 onwards</td>
+                <td>18400 onwards</td>
+                <td>36500 onwards</td>
+            </tr>
+            <tr>
+                <td>Buffet Breakfast</td>
+                <td>6400 inclusive</td>
+                <td>9900 inclusive</td>
+                <td>12500 inclusive</td>
+            </tr>
+            <tr>
+                <td>Wifi & Happy Hours</td>
+                <td>4100 inclusive</td>
+                <td>8800 inclusive</td>
+                <td>10300 inclusive</td>
+            </tr>
+            <tr>
+                <td>Luxury Spa</td>
+                <td>9700 inclusive</td>
+                <td>16700 inclusive</td>
+                <td>29700 inclusive</td>
+            </tr>
+            <tr>
+                <td>Luxury Bath</td>
+                <td>14700 inclusive</td>
+                <td>18700 inclusive</td>
+                <td>24700 inclusive</td>
+            </tr>
+            <tr>
+                <td>Bar cum Restaurant</td>
+                <td>8800 inclusive</td>
+                <td>12700 inclusive</td>
+                <td>18700 inclusive</td>
+            </tr>
+        </table>
+
+    </div>
+    <footer>
+
+        <p>Email: <a href="reservations@itchotels.in">reservations@itchotels.in</a></p>
+
+        <p>Operational Hours: 08:00 AM to 08:00 PM IST Toll-free number (Valid for guest calling from within India)
+            1-800-419-6444 ; 1-800-102-2333
+
+        </p>
+        <p>Direct number (Valid for guest calling from outside India) +91124 4816900; +91124 6718000
+
+        </p>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</html>
