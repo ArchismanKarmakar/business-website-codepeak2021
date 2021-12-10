@@ -28,9 +28,13 @@ router.get('/dashboard', userMiddleware.verifyJWT, async (req, res) => {
 })
 
 router.post("/signup", async (req, res) => {
-    const { username, email, password } = req.body;
-    if (!username || !email || !password) {
+    const { username, email, password, cpassword } = req.body;
+    if (!username || !email || !password || !cpassword) {
         console.log('All fields are required');
+        return res.redirect('/user/signup');
+    }
+    if (password !== cpassword) {
+        console.log('Passwords do not match');
         return res.redirect('/user/signup');
     }
     try {
