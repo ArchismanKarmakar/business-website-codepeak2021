@@ -43,7 +43,7 @@ You can refer to the following articles on the basics of Git and Github and also
 ### Prerequisites
 - NodeJS
 - Bootstrap
-- MongoDB
+- MongoDB or Firebase
 - ReactJS
 - Express
 - HTML5/CSS3/JavaScript (Basics)
