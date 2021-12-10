@@ -43,30 +43,22 @@ You can refer to the following articles on the basics of Git and Github and also
 ### Prerequisites
 - NodeJS
 - Bootstrap
-- MongoDB
+- MongoDB or Firebase
 - ReactJS
 - Express
-- Firebase
+- HTML5/CSS3/JavaScript (Basics)
 #
 ### SiteMap
 ![map](https://user-images.githubusercontent.com/92569441/145590394-73a5533a-b4ff-4d18-9097-92d347030174.png)
 
 
 ### Tasks
-- ##### Make the website Responsive.![]() ![](https://img.shields.io/badge/Difficulty-Moderate-yellow)
-- ##### Make the GUI more user friendly with Bootstrap 5.![]() ![](https://img.shields.io/badge/Difficulty-Hard-orange)
-- ##### Add Express backend to the website.![]() ![](https://img.shields.io/badge/Difficulty-Moderate-yellow)
-- ##### Use React to apply animated background instead of the .GIF used.![]() ![](https://img.shields.io/badge/Difficulty-Hard-orange)
-- ##### Add a Firebase/MongoDB user encrypted account & login system. ![]() ![](https://img.shields.io/badge/Difficulty-Hard-orange).
-- ##### Use MongoDB for vaccancies & bookings data and display them in the website (refer to **[Presentation](https://github.com/ArchismanKarmakar/ITC-hotels-codepeak2021/blob/main/project-ppt.pptx)**). ![]() ![](https://img.shields.io/badge/Difficulty-Hard-orange)
-- ##### Add a welcome banner in index.html (refer to **[PPT](https://github.com/ArchismanKarmakar/ITC-hotels-codepeak2021/blob/main/project-ppt.pptx)**)  ![]() ![](https://img.shields.io/badge/Difficulty-VeryEasy-brightgreen)
-- ##### Use MongoDB to add all hotels & resorts in the website present across India. ![]() ![](https://img.shields.io/badge/Difficulty-Moderate-yellow)
-- ##### Use MongoDB to show various packages available and also mention features in them. ![]() ![](https://img.shields.io/badge/Difficulty-Moderate-yellow)
-- ##### Add a page for Weddings, meet-ups at ITC hotel banquets. ![]() ![](https://img.shields.io/badge/Difficulty-Easy-green)
-- ##### Add a page for SPA & add backend, mention packages, features, details. ![]() ![](https://img.shields.io/badge/Difficulty-VeryEasy-brightgreen)
-- ##### Add a user feedback form & add backend. ![]() ![](https://img.shields.io/badge/Difficulty-Moderate-yellow)
-- ##### Make the club page, add backend to it and link it to the main website. ![]() ![](https://img.shields.io/badge/Difficulty-Moderate-yellow)
-- ##### Add a section below bookings showing all common features available just on booking of each & every package.(example: WiFi, Breakfast, Dry Cleaning etc, included in every pack.) ![]() ![](https://img.shields.io/badge/Difficulty-VeryEasy-brightgreen)
+##### check issues tab please
+![](https://img.shields.io/badge/Difficulty-Moderate-yellow)
+![](https://img.shields.io/badge/Difficulty-Hard-orange)
+![](https://img.shields.io/badge/Difficulty-Easy-green)
+![](https://img.shields.io/badge/Difficulty-VeryEasy-brightgreen)
+
 
 ## Setting up softwares
 
