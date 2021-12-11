@@ -36,7 +36,7 @@ You can refer to the following articles on the basics of Git and Github and also
 - For merging 1-point issue assign 1 point.
 - For pointing a new easy issue assign 1 point
 - For pointing a new MED/HARD issue assign 1 point
-```Note: All points mentioned are excluding timeliness, efficiency & other bonuses. Max bonus can be upto 5.```
+- ```Note: All points mentioned are excluding timeliness, efficiency & other bonuses. Max bonus can be upto 5.```
 
 # PROJECT DETAILS
 
