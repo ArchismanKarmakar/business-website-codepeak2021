@@ -14,7 +14,7 @@ const feedbackRouter = require('./routes/feedback');
 app.set('view engine', 'ejs');
 
 // Static files
-const assetsPath = path.join(__dirname, '../frontend', 'assets');
+const assetsPath = path.join(__dirname, '../frontend');
 app.set('views', path.join(__dirname, '../frontend', 'views'));
 app.use(express.static(assetsPath));
 
