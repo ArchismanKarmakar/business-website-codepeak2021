@@ -19,6 +19,10 @@ router.get('/tour', (req, res) => {
     res.sendFile(path.join(__dirname, '../../frontend', 'tour.html'));
 })
 
+router.get('/res', (req, res) => {
+    res.sendFile(path.join(__dirname, '../../frontend', 'res.html'));
+})
+
 router.get('/hotels', async (req, res) => {
     try {
         const hotels = await Hotel.find({});

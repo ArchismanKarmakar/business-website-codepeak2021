@@ -50,6 +50,9 @@ You can refer to the following articles on the basics of Git and Github and also
 - HTML5/CSS3/JavaScript (Basics)
 #
 ### SiteMap
+![map1](https://user-images.githubusercontent.com/92569441/145706517-dd4d8722-cbc5-4850-8535-ad339165ece9.png)
+#
+#
 ![map](https://user-images.githubusercontent.com/92569441/145590394-73a5533a-b4ff-4d18-9097-92d347030174.png)
 
 
