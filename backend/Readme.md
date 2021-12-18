@@ -6,7 +6,7 @@
 4. Create a `.env` file in the backend folder
 5. Import the `hotels.json` file in mongodb by creating a collection named `hotels`
 6. Enter `npm start` to run the app. If nodemon failed to start or it has some other problems, when used `node app.js`, then use `npx nodemon app.js`
-7. Open up your browser and visit the url `localhost:3000` to view the app
+7. Open up your browser and visit the url `localhost:5000` to view the app
 
 ## Setting up `.env` file
 
