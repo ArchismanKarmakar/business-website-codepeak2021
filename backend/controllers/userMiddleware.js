@@ -31,8 +31,7 @@ exports.verifyLoggedUser = async (req, res, next) => {
     try {
         const token = req.cookies.usertoken;
         if (token) {
-            console.log('Logout first to view that resource');
-            return res.redirect('/user/dashboard');
+            return res.status(401).send({ msg: 'Logout to view that resource' })
         }
         next();
     } catch (err) {

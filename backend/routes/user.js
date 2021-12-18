@@ -7,8 +7,6 @@ const crypto = require('crypto');
 const Securitykey = process.env.SECURITY_KEY;
 
 const jwt = require("jsonwebtoken");
-// bcrypt for hashing password
-// const bcrypt = require("bcryptjs");
 
 const User = require('../models/user');
 
@@ -42,21 +40,26 @@ router.get('/dashboard', userMiddleware.verifyJWT, async (req, res) => {
     res.sendFile(path.join(__dirname, '../../frontend', 'dashboard.html'))
 })
 
+router.get('/check', userMiddleware.verifyLoggedUser, (req, res) => {
+    try {
+        res.status(200).json({ msg: 'You can view this resource' });
+    } catch (err) {
+        res.status(500).json({ error: 'Some error occured' });
+    }
+})
+
 router.post("/signup", async (req, res) => {
     const { username, email, password, cpassword } = req.body;
     if (!username || !email || !password || !cpassword) {
-        console.log('All fields are required');
-        return res.redirect('/user/signup');
+        return res.status(403).json({ error: 'All fields are required' });
     }
     if (password !== cpassword) {
-        console.log('Passwords do not match');
-        return res.redirect('/user/signup');
+        return res.status(401).json({ error: 'Passwords do not match' });
     }
     try {
         let user = await User.findOne({ email });
         if (user) {
-            console.log('User already exists');
-            return res.redirect('/user/signup');
+            return res.status(401).json({ error: 'User already exists' });
         }
         user = new User({ username, email, password });
 
@@ -68,10 +71,16 @@ router.post("/signup", async (req, res) => {
         encryptedPassword += IV;
         user.password = encryptedPassword;
         await user.save();
-        console.log('User registered successfully');
-        res.redirect('/user/login');
+        // login user with jwt
+        const payload = {
+            user: { id: user.id }
+        };
+        const token = jwt.sign(payload, secretKey, { expiresIn: 24 * 60 * 60 * 1000 });
+        res.cookie('usertoken', token, {
+            expires: new Date(Date.now() + 24 * 60 * 60 * 1000),
+            httpOnly: true
+        }).status(200).json({ msg: 'Successfully signed up', token: token });
     } catch (err) {
-        console.log(err);
         res.status(500).send("Error in Saving");
     }
 });
@@ -79,15 +88,13 @@ router.post("/signup", async (req, res) => {
 router.post("/login", async (req, res) => {
     const { email, password } = req.body;
     if (!email || !password) {
-        console.log('All fields are required');
-        return res.redirect('/user/login');
+        return res.status(403).json({ error: 'All fields are required' });
     }
     try {
         // check if user exists
         const user = await User.findOne({ email });
         if (!user) {
-            console.log('Wrong username or password');
-            return res.redirect('/user/login');
+            return res.status(401).json({ error: 'Invalid Credentials' });
         }
 
         // decrypt password
@@ -98,8 +105,7 @@ router.post("/login", async (req, res) => {
 
         // check if passwords match
         if (decryptedPassword !== password) {
-            console.log('Wrong username or password');
-            return res.redirect('/user/login');
+            return res.status(401).json({ error: 'Invalid credentials' });
         }
 
         // login user with jwt
@@ -107,14 +113,12 @@ router.post("/login", async (req, res) => {
             user: { id: user.id }
         };
         const token = jwt.sign(payload, secretKey, { expiresIn: 24 * 60 * 60 * 1000 });
-        console.log('You are logged in');
         res.cookie('usertoken', token, {
             expires: new Date(Date.now() + 24 * 60 * 60 * 1000),
             httpOnly: true
-        }).redirect('/user/dashboard');
+        }).status(200).json({ msg: 'Successfully logged in', token: token });
 
     } catch (err) {
-        console.log(err);
         res.status(500).send("Some error occured");
     }
 });

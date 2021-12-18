@@ -1,0 +1,94 @@
+body {
+  background: #fafafa;
+}
+
+.form-wrapper {
+  position: relative;
+  max-width: 38rem;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s color ease-in-out;
+  color: #455a64;
+}
+
+input {
+  width: 100%;
+  color: #546e7a;
+  border: 1px solid #cfd8dc;
+  font-weight: 300;
+  transition: 0.4s all;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form-container {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.form-logo {
+  width: 10rem;
+  margin: 0 auto 3.5rem;
+}
+
+.form-logo img {
+  width: 100%;
+}
+
+.form-fields {
+  margin-bottom: 1.75rem;
+}
+
+input,
+button {
+  padding: 9px 13px;
+  line-height: 1.4;
+  border-radius: 3px;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.btn-account {
+  background: #455a64;
+  border: 1px solid #b0bec5;
+  color: #fff;
+  transition: 0.2s all ease-in-out;
+  outline: 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.account-toggle {
+  margin-top: 1.75rem;
+  display: flex;
+  justify-content: space-between;
+}
