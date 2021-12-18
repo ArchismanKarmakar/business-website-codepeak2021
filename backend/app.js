@@ -18,6 +18,7 @@ const assetsPath = path.join(__dirname, '../frontend');
 app.set('views', path.join(__dirname, '../frontend', 'views'));
 app.use(express.static(assetsPath));
 
+app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
@@ -25,5 +26,5 @@ app.use('/', indexRouter);
 app.use('/user', userRouter);
 app.use('/user', feedbackRouter);
 
-const port = 3000
-app.listen(port, () => console.log('Server is running at port 3000'));
+const port = 5000
+app.listen(port, () => console.log(`Server is running at port ${port}`));
