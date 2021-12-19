@@ -35,6 +35,13 @@
           "github-profile-url" : "https://github.com/re4lvanshsingh",
           "occupation" : "btech-cse-1st-yr-student",
           "skills" : "c++/html/css/java/python/MySQL"
-     }
+     },
+          {
+          "username" : "mikrokosmos2109",
+          "fullname" : "Keerti Lata",
+          "github-profile-url" : "https://github.com/mikrokosmos2109",
+          "occupation" : "btech-me-2nd-yr-student",
+          "skills" : "c++/html/css/javascript/react"
+     },
 
 }
