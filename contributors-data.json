@@ -43,5 +43,11 @@
           "occupation" : "btech-me-2nd-yr-student",
           "skills" : "c++/html/css/javascript/react"
      },
-
+     {
+          "username": "shmiitg",
+          "fullname": "Shubham Mondal",
+          "github-profile-url": "http://github.com/shmiitg",
+          "occupation": "btech-me-3rd-yr-student",
+          "skills": "c/c++/python/javascript/typescript/react/vue/node/express/mongodb/firebase/css/html/pandas/scikit-learn/matplotlib/seaborn"
+     }
 }
