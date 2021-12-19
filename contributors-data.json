@@ -11,7 +11,9 @@
           "github-profile-url" : "https://github.com/ArchismanKarmakar",
           "occupation" : "btech-cse-1st-yr-student",
           "skills" : "c/c++/c#/html/css/js/nodejs/express/mongodb/react/vb/.net"
-     },{
+     },
+
+     {
           "username" : "ShivaRapolu01",
           "fullname" : "Rapolu Shiva prasad",
           "github-profile-url" : "https://github.com/ShivaRapolu01",
@@ -20,12 +22,19 @@
      },
      
      {
-     
           "username" : "imrushikesh",
           "fullname" : "Rushikesh Patil",
           "github-profile-url" : "https://github.com/imrushikesh",
           "occupation" : "Software Engineer",
           "skills" : "c/c++/html/css/js/Java/Dot Net MVC/SQL/Angular"
-     
+     },
+
+     {
+          "username" : "re4lvanshsingh",
+          "fullname" : "Vansh Singh",
+          "github-profile-url" : "https://github.com/re4lvanshsingh",
+          "occupation" : "btech-cse-1st-yr-student",
+          "skills" : "c++/html/css/java/python/MySQL"
      }
+
 }
