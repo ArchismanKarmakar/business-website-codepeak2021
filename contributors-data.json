@@ -17,5 +17,15 @@
           "github-profile-url" : "https://github.com/ShivaRapolu01",
           "occupation" : "btech-ece-2nd-yr-student",
           "skills" : "c/c++/html/css/js/nodejs/express/mongodb/react"
-     }  
+     },
+     
+     {
+     
+          "username" : "imrushikesh",
+          "fullname" : "Rushikesh Patil",
+          "github-profile-url" : "https://github.com/imrushikesh",
+          "occupation" : "Software Engineer",
+          "skills" : "c/c++/html/css/js/Java/Dot Net MVC/SQL/Angular"
+     
+     }
 }
