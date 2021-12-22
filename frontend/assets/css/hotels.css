@@ -40,12 +40,12 @@
     color: rgb(174, 0, 255);
 }
 
-footer {
+/* footer {
     text-align: center;
     padding: 3px;
     background-color: rgb(95, 95, 95);
     color: white;
-}
+}  */ 
 
 .list li {
     text-decoration: none;

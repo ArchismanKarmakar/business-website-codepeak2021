@@ -1,0 +1,780 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+
+
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<style>
+body {
+	background: #eeeeee;
+	font-family: 'Varela Round', sans-serif;
+}
+.navbar {
+	color: #fff;
+	background: #926dde !important;
+	padding: 5px 16px;
+	border-radius: 0;
+	border: none;
+	box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+.navbar img {
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	margin-right: 10px;
+}
+.navbar .navbar-brand {
+	color: #efe5ff;
+	padding-left: 0;
+	padding-right: 50px;
+	font-size: 24px;		
+}
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+	color: #fff;
+}
+.navbar .navbar-brand i {
+	font-size: 25px;
+	margin-right: 5px;
+}
+.search-box {
+	position: relative;
+}	
+.search-box input {
+	padding-right: 35px;
+	min-height: 38px;
+	border: none;
+	background: #faf7fd;
+	border-radius: 3px !important;
+}
+.search-box input:focus {		
+	background: #fff;
+	box-shadow: none;
+}
+.search-box .input-group-addon {
+	min-width: 35px;
+	border: none;
+	background: transparent;
+	position: absolute;
+	right: 0;
+	z-index: 9;
+	padding: 10px 7px;
+	height: 100%;
+}
+.search-box i {
+	color: #a0a5b1;
+	font-size: 19px;
+}
+.navbar .nav-item i {
+	font-size: 18px;
+}
+.navbar .nav-item span {
+	position: relative;
+	top: 3px;
+}
+.navbar .navbar-nav > a {
+	color: #efe5ff;
+	padding: 8px 15px;
+	font-size: 14px;		
+}
+.navbar .navbar-nav > a:hover, .navbar .navbar-nav > a:focus {
+	color: #fff;
+	text-shadow: 0 0 4px rgba(255,255,255,0.3);
+}
+.navbar .navbar-nav > a > i {
+	display: block;
+	text-align: center;
+}
+.navbar .dropdown-item i {
+	font-size: 16px;
+	min-width: 22px;
+}
+.navbar .dropdown-item .material-icons {
+	font-size: 21px;
+	line-height: 16px;
+	vertical-align: middle;
+	margin-top: -2px;
+}
+.navbar .nav-item.open > a, .navbar .nav-item.open > a:hover, .navbar .nav-item.open > a:focus {
+	color: #fff;
+	background: none !important;
+}
+.navbar .dropdown-menu {
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu a {
+	color: #777 !important;
+	padding: 8px 20px;
+	line-height: normal;
+	font-size: 15px;
+}
+.navbar .dropdown-menu a:hover, .navbar .dropdown-menu a:focus {
+	color: #333 !important;
+	background: transparent !important;
+}
+.navbar .navbar-nav .active a, .navbar .navbar-nav .active a:hover, .navbar .navbar-nav .active a:focus {
+	color: #fff;
+	text-shadow: 0 0 4px rgba(255,255,255,0.2);
+	background: transparent !important;
+}
+.navbar .navbar-nav .user-action {
+	padding: 9px 15px;
+	font-size: 15px;
+}
+.navbar .navbar-toggle {
+	border-color: #fff;
+}
+.navbar .navbar-toggle .icon-bar {
+	background: #fff;
+}
+.navbar .navbar-toggle:focus, .navbar .navbar-toggle:hover {
+	background: transparent;
+}
+.navbar .navbar-nav .open .dropdown-menu {
+	background: #faf7fd;
+	border-radius: 1px;
+	border-color: #faf7fd;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .divider {
+	background-color: #e9ecef !important;
+}
+@media (min-width: 1200px){
+	.form-inline .input-group {
+		width: 350px;
+		margin-left: 30px;
+	}
+}
+@media (max-width: 1199px){
+	.navbar .navbar-nav > a > i {
+		display: inline-block;			
+		text-align: left;
+		min-width: 30px;
+		position: relative;
+		top: 4px;
+	}
+	.navbar .navbar-collapse {
+		border: none;
+		box-shadow: none;
+		padding: 0;
+	}
+	.navbar .navbar-form {
+		border: none;			
+		display: block;
+		margin: 10px 0;
+		padding: 0;
+	}
+	.navbar .navbar-nav {
+		margin: 8px 0;
+	}
+	.navbar .navbar-toggle {
+		margin-right: 0;
+	}
+	.input-group {
+		width: 100%;
+	}
+}
+</style>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>Clubs</title>
+
+
+
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.14.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <section>
+    <div class="overview section">
+      <div class="itc-heading text-center" role="heading">
+        <img src="img/ITCs Hotel Group.png">
+      </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+      <a href="#" class="navbar-brand"><i class="fa fa-hotel"></i>ITC<b class="text-warning">Hotels</b></a>  		
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        
+        <span class="navbar-toggler-icon"><p> Login</p></span>
+      </button>
+
+      
+      <!-- Collection of nav links, forms, and other content for toggling -->
+      <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">		
+        <div class="navbar-nav">
+          <a href="index.html" class="nav-item nav-link"><i class="fa fa-home"></i><span>Home</span></a>
+          <a href="Hotels.html" class="nav-item nav-link"><i class="fa fa-list-ul"></i><span>Our Hotels</span></a>
+          <a href="res.html" class="nav-item nav-link"><i class="fa fa-coffee"></i><span>Restaurant</span></a>
+          <a href="tour.html" class="nav-item nav-link"><i class="fa fa-automobile"></i><span>Tourism</span></a>
+          <a href="weddings.html" class="nav-item nav-link"><i class="fa fa-venus-mars"></i><span>Weddings</span></a>
+          <a href="club.html" class="nav-item nav-link active"><i class="fa fa-credit-card"></i><span>Club ITC</span></a>
+          <a href="Contact.html" class="nav-item nav-link"><i class="fa fa-envelope"></i><span>Contact</span></a>		
+          <a href="about.html" class="nav-item nav-link"><i class="fa fa-mail-forward"></i><span>About us</span></a>
+         
+            
+        </div>
+      </div>
+
+      <div id="navbarCollapse" class="collapse navbar-collapse justify-content-end">		
+        <div class="navbar-nav">
+          <a href="login.html" class="nav-item nav-link"><span class="text-warning">Login</span></a>
+          <a href="signup.html" class="nav-item nav-link"><span class="text-warning">Signup</span></a>
+         
+            
+        </div>
+      </div>
+    </nav>
+
+
+    <!--
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">ITC</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Our Hotels</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Restaurant</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Tourism</a>
+            <a class="dropdown-item" href="#"></a>
+            
+            <a class="dropdown-item" href="#">Weddings & Meetings</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav> -->
+
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="#" class="navbar-brand">Brand<b>Name</b></a>  		
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+     Collection of nav links, forms, and other content for toggling 
+    <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+      <div class="navbar-nav">
+        <a href="#" class="nav-item nav-link">Home</a>
+        <a href="#" class="nav-item nav-link">About</a>			
+        <div class="nav-item dropdown">
+          <a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle">Services</a>
+          <div class="dropdown-menu">					
+            <a href="#" class="dropdown-item">Web Design</a>
+            <a href="#" class="dropdown-item">Web Development</a>
+            <a href="#" class="dropdown-item">Graphic Design</a>
+            <a href="#" class="dropdown-item">Digital Marketing</a>
+                  </div>
+              </div>
+        <a href="#" class="nav-item nav-link active">Pricing</a>
+        <a href="#" class="nav-item nav-link">Blog</a>
+        <a href="#" class="nav-item nav-link">Contact</a>
+      </div>
+      <form class="navbar-form form-inline">
+        <div class="input-group search-box">								
+          <input type="text" id="search" class="form-control" placeholder="Search here...">
+          <div class="input-group-append">
+            <span class="input-group-text">
+              <i class="material-icons">&#xE8B6;</i>
+            </span>
+          </div>
+        </div>
+      </form>
+      <div class="navbar-nav ml-auto action-buttons">
+        <div class="nav-item dropdown">
+          <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle mr-4">Login</a>
+                  <div class="dropdown-menu action-form">
+            <form action="/examples/actions/confirmation.php" method="post">
+              <p class="hint-text">Sign in with your social media account</p>
+              <div class="form-group social-btn clearfix">
+                <a href="#" class="btn btn-secondary facebook-btn float-left"><i class="fa fa-facebook"></i> Facebook</a>
+                <a href="#" class="btn btn-secondary twitter-btn float-right"><i class="fa fa-twitter"></i> Twitter</a>
+              </div>
+              <div class="or-seperator"><b>or</b></div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Username" required="required">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password" required="required">
+              </div>
+              <input type="submit" class="btn btn-primary btn-block" value="Login">
+              <div class="text-center mt-2">
+                <a href="#">Forgot Your password?</a>
+              </div>
+            </form>
+                  </div>
+        </div>
+        <div class="nav-item dropdown">
+          <a href="#" data-toggle="dropdown" class="btn btn-primary dropdown-toggle sign-up-btn">Sign up</a>
+                  <div class="dropdown-menu action-form">
+            <form action="/examples/actions/confirmation.php" method="post">
+              <p class="hint-text">Fill in this form to create your account!</p>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Username" required="required">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password" required="required">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" placeholder="Confirm Password" required="required">
+              </div>
+              <div class="form-group">
+                <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms &amp; Conditions</a></label>
+              </div>
+              <input type="submit" class="btn btn-primary btn-block" value="Sign up">
+            </form>
+          </div>
+        </div>
+          </div>
+    </div>
+  </nav>  -->
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+    <img src="img/Clubsitc.png">
+
+
+    <main class="container py-5">
+      <div class="row" data-masonry='{"percentPosition": true }'>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+
+            <img src="img/gourmet-couch.png">
+            <div class="card-body">
+              <h5 class="card-title">Club ITC Culinaire</h5>
+              <p class="card-text">With extraordinary culinary discoveries across a wide choice of cuisines,
+                invigorating luxury stays.The Culinaire has been especially designed to cater to your fine culinary
+                palate and provide experiences that complement your distinguished taste and lifestyle.</p>
+              <p class="card-text"><small class="text-muted">Exclusive</small></p>
+            </div>
+          </div>
+        </div>
+        <!----
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card p-3">
+          <figure class="p-3 mb-0">
+            <blockquote class="blockquote">
+              <p>Member Only Rates</p>
+            </blockquote>
+            <figcaption class="blockquote-footer mb-0 text-muted">
+            Club ITC member get upto 10% additional savings for all bookings made through itchotels.com
+            </figcaption>
+          </figure>
+        </div>
+      </div> -->
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="img/Club-ITC-Reward-NIghts.png">
+            <div class="card-body">
+              <h5 class="card-title">Club ITC Reward Nights</h5>
+              <p class="card-text">Unlock exceptional experiences at your favourite hotels using your Green Points.
+                Experiences starting from 3,000 Green Points.</p>
+              <p class="card-text"><small class="text-muted">Exclusive</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Simplicity & Transparency</h5>
+              <p class="card-text">Earn 2%-5% of the eligible spends as Green Points. </p>
+              <p class="card-text"> 1 Green Point=Re. 1</p>
+              <p class="card-text"> The more you stay, the faster you move up the tiers & benefits multiply</p>
+              <p class="card-text"><small class="text-muted">Featured</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="img/arrosim-retreat.png">
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card p-3 text-end">
+            <figure class="mb-0">
+              <blockquote class="blockquote">
+                <p>Free Wi-Fi</p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-muted">
+                Receive complementary Wi-Fi for your stays at participating hotels. <cite title="Source Title"></cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <img src="img/Itc table.png">
+
+    <div>
+      <div style="margin:150px">
+        <table class="table table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Tier</th>
+              <th scope="col">Member</th>
+              <th scope="col">Silver</th>
+              <th scope="col">Gold</th>
+              <th scope="col">Platinum</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Qualifying Criteria (in one calendar year)</th>
+              <td>On enrolment</td>
+              <td>6 nights or ₹ 60k spends</td>
+              <td>16 nights or ₹ 160k spends</td>
+              <td>30 nights or ₹ 300k spends</td>
+            </tr>
+            <tr>
+              <th scope="row">Qualifying Criteria for calendar year 2021</th>
+              <td>On enrolment</td>
+              <td>4 nights or ₹ 40k spends</td>
+              <td>10 nights or ₹ 100k spends</td>
+              <td>20 nights or ₹ 200k spends</td>
+            </tr>
+            <tr>
+              <th scope="row">Earning of Green Points on Eligible Spends</th>
+              <td>2%</td>
+              <td>3%</td>
+              <td>4%</td>
+              <td>5%</td>
+
+            </tr>
+            <tr>
+              <th scope="row">Savings on suites(Booked by Guest Contact)</th>
+              <td>10%</td>
+              <td>10%</td>
+              <td>20%</td>
+              <td>20%</td>
+            </tr>
+            <tr>
+              <th scope="row">Member Rates (Up to 10% savings)</th>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+            </tr>
+            <tr>
+              <th scope="row">Reward Night redemptions</th>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+            </tr>
+            <tr>
+              <th scope="row">Complimentary In-room Internet Access*</th>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+            </tr>
+            <tr>
+              <th scope="row">Club ITC Reservation Line</th>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+            </tr>
+            <tr>
+              <th scope="row">Tier upgrade / Retention benefit*</th>
+              <td></td>
+              <td>4 value vouchers</td>
+              <td>4 value vouchers</td>
+              <td>4 value vouchers</td>
+            </tr>
+            <tr>
+              <th scope="row">Green Points Transfer</th>
+              <td></td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+            </tr>
+            <tr>
+              <th scope="row">No extra charge for accompanying spouse</th>
+              <td></td>
+              <td></td>
+              <td>✔️</td>
+              <td>✔️</td>
+            </tr>
+            <tr>
+              <th scope="row">Priority on room reservations</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>72 hours</td>
+            </tr>
+            <tr>
+              <th scope="row">Room Upgrades (Subject to availability)</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>✔️</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+          <div class="card-body d-flex flex-column align-items-start">
+            <strong class="d-inline-block mb-2 text-primary">Member</strong>
+            <h3 class="mb-0">
+              <a class="text-dark">
+                <img src="node_modules/bootstrap-icons/icons/wifi.svg" alt="Bootstrap" width="25" height="25">
+
+                <img src="node_modules/bootstrap-icons/icons/moon-stars.svg" alt="Bootstrap" width="25" height="25">
+
+                <img src="node_modules/bootstrap-icons/icons/phone.svg" alt="Bootstrap" width="25" height="25">
+
+                <img src="node_modules/bootstrap-icons/icons/hand-thumbs-up.svg" alt="Bootstrap" width="25" height="25">
+
+              </a>
+            </h3>
+            <p class="card-text mb-auto"> </p>
+          </div>
+          <img class="card-img-right flex-auto d-none d-lg-block" src="img/member-card-ITC (2).png"
+            alt="Card image cap">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+          <div class="card-body d-flex flex-column align-items-start">
+            <strong class="d-inline-block mb-2 text-muted">Silver</strong>
+            <h3 class="mb-0">
+              <a class="text-dark">
+                <img src="node_modules/bootstrap-icons/icons/wifi.svg" alt="Bootstrap" width="25" height="25">
+
+                <img src="node_modules/bootstrap-icons/icons/moon-stars.svg" alt="Bootstrap" width="25" height="25">
+
+                <img src="node_modules/bootstrap-icons/icons/phone.svg" alt="Bootstrap" width="25" height="25">
+
+                <img src="node_modules/bootstrap-icons/icons/hand-thumbs-up.svg" alt="Bootstrap" width="25" height="25">
+
+
+
+
+
+              </a>
+            </h3>
+            <p> </p>
+            <p class="card-text mb-auto"><img src="node_modules/bootstrap-icons/icons/credit-card.svg" alt="Bootstrap"
+                width="25" height="25">
+              <img src="node_modules/bootstrap-icons/icons/bag-check.svg" alt="Bootstrap" width="25" height="25">
+
+
+            </p>
+          </div>
+          <img class="card-img-right flex-auto d-none d-lg-block" src="img/silver-bg.png" alt="Card image cap">
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+          <div class="card-body d-flex flex-column align-items-start">
+            <strong class="d-inline-block mb-2 text-dark">Platinum</strong>
+            <h3 class="mb-0">
+              <a class="text-dark">
+
+                <img src="node_modules/bootstrap-icons/icons/wifi.svg" alt="Bootstrap" width="25" height="25">
+
+                <img src="node_modules/bootstrap-icons/icons/moon-stars.svg" alt="Bootstrap" width="25" height="25">
+
+                <img src="node_modules/bootstrap-icons/icons/phone.svg" alt="Bootstrap" width="25" height="25">
+
+                <img src="node_modules/bootstrap-icons/icons/hand-thumbs-up.svg" alt="Bootstrap" width="25" height="25">
+
+              </a>
+            </h3>
+            <p> </p>
+            <a class="text-dark"> <img src="node_modules/bootstrap-icons/icons/credit-card.svg" alt="Bootstrap"
+                width="25" height="25">
+              <img src="node_modules/bootstrap-icons/icons/bag-check.svg" alt="Bootstrap" width="25" height="25">
+              <img src="node_modules/bootstrap-icons/icons/cash.svg" alt="Bootstrap" width="25" height="25">
+              <img src="node_modules/bootstrap-icons/icons/graph-up-arrow.svg" alt="Bootstrap" width="25" height="25">
+            </a>
+            <p></p>
+            <p><img src="node_modules/bootstrap-icons/icons/piggy-bank.svg" alt="Bootstrap" width="25" height="25">
+              <img src="node_modules/bootstrap-icons/icons/cup.svg" alt="Bootstrap" width="25" height="25">
+            </p>
+          </div>
+          <img class="card-img-right flex-auto d-none d-lg-block" src="img/platinum1-card-ITC.png" alt="Card image cap">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+
+          <div class="card-body d-flex flex-column align-items-start">
+
+            <strong class="d-inline-block mb-2 text-warning">Gold</strong>
+            <h3 class="mb-0">
+              <a class="text-dark"><img src="node_modules/bootstrap-icons/icons/wifi.svg" alt="Bootstrap" width="25"
+                  height="25">
+
+                <img src="node_modules/bootstrap-icons/icons/moon-stars.svg" alt="Bootstrap" width="25" height="25">
+
+                <img src="node_modules/bootstrap-icons/icons/phone.svg" alt="Bootstrap" width="25" height="25">
+
+                <img src="node_modules/bootstrap-icons/icons/hand-thumbs-up.svg" alt="Bootstrap" width="25" height="25">
+              </a>
+            </h3>
+            <p> </p>
+            <p class="card-text mb-auto">
+              <img src="node_modules/bootstrap-icons/icons/credit-card.svg" alt="Bootstrap" width="25" height="25">
+              <img src="node_modules/bootstrap-icons/icons/bag-check.svg" alt="Bootstrap" width="25" height="25">
+              <img src="node_modules/bootstrap-icons/icons/cash.svg" alt="Bootstrap" width="25" height="25">
+              <img src="node_modules/bootstrap-icons/icons/graph-up-arrow.svg" alt="Bootstrap" width="25" height="25">
+            </p>
+          </div>
+          <img class="card-img-right flex-auto d-none d-lg-block" src="img/gold-card-ITC (1).png" alt="Card image cap">
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">ITC Hotel Groups</h5>
+            <p>Copyright © ITC Limited 2021. All rights reserved.</p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Explore</h5>
+            <p>
+              <a href="about.html" class="text-white" style="text-decoration: none;">Our Story</a>
+            </p>
+            <p>
+              <a href="Hotels.html" class="text-white" style="text-decoration: none;">Hotels & Resorts</a>
+            </p>
+            <p>
+              <a href="res.html" class="text-white" style="text-decoration: none;">Dining</a>
+            </p>
+            <p>
+              <a href="weddings.html" class="text-white" style="text-decoration: none;">Weddings & Meetings</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Membership</h5>
+            <p>
+              <a href="club.html" class="text-white" style="text-decoration: none;">Club ITC</a>
+            </p>
+            <p>
+              <a href="club.html" class="text-white" style="text-decoration: none;">Club ITC Culinaire</a>
+            </p>
+            <p>
+              <a href="club.html" class="text-white" style="text-decoration: none;">Club ITC Cards</a>
+            </p>
+            <p>
+              <a href="club.html" class="text-white" style="text-decoration: none;">Rewards</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacts</h5>
+            <p>
+              <i></i> Email: reservations@itchotels.in
+            </p>
+            <p>
+              <i></i> Work Hours: 08:00 to 20:00 IST
+            </p>
+            <p>
+              <i></i> Toll-free number (within India)
+            </p>
+            <p>
+              <i></i> 1-800-419-6444 ; 1-800-102-2333
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+  integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+  async></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</html>

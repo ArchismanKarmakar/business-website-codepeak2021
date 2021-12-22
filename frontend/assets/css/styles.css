@@ -1,0 +1,129 @@
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    position:static;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #00093c);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row{
+    width: 85%;
+    margin:auto; 
+    display:flex;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+
+}
+
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.centerr {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  .item:hover {
+    background-color: rgb(165, 165, 165);
+    cursor: pointer;
+    color: rgb(174, 0, 255);
+}
+.card:hover {
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+  }
+  
+  .card:hover .backgroundEffect {
+    position: absolute;
+    z-index: -1;
+    background: #1b9ce3;
+    animation: popBackground 0.3s ease-in
+  }
+
+
+  @keyframes popBackground {
+    0% {
+        height: 20px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%
+    }
+  
+    50% {
+        height: 80px;
+        border-top-left-radius: 75%;
+        border-top-right-radius: 75%
+    }
+  
+    75% {
+        height: 160px;
+        border-top-left-radius: 85%;
+        border-top-right-radius: 85%
+    }
+  
+    100% {
+        height: 320px;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%
+    }
+  }
+
+
+  .card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
