@@ -10,7 +10,18 @@
 
 ## Setting up `.env` file
 
-SECRET_KEY = <any random string> eg: mysecretkey
-MONGODBURL = <your mongodb url for connection> eg: mongodb://localhost:27017/itc
-SECURITY_KEY = <a random string with 32 characters> eg: HlC*UG0LGO;s%{&bVnT_ocz)u2;QE$SD
+```console
+SECRET_KEY = <any random string>
+```
+
+eg: mysecretkey
+```console
+MONGODBURL = <your mongodb url for connection>
+```
+eg: mongodb://localhost:27017/itc
+
+```console
+SECURITY_KEY = <a random string with 32 characters>
+```
+eg: HlC*UG0LGO;s%{&bVnT_ocz)u2;QE$SD
 *In random strings, don't use the symbols '," and \
