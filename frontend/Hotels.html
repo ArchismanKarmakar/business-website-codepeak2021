@@ -2,83 +2,314 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ITC HOTELS: Our Hotels</title>
-    <link rel="stylesheet" href="assets/css/hotels.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ITC Hotels</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+ 
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  
+
+  <!-- Template Main CSS File -->
+  <link href="asset/css/hotels.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+    
 </head>
 
 
-<body class="body">
+<body>
 
-    <div class="header">
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo me-auto"><a href="index.html">ITC<span>Hotels</span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!--<a href="index.html" class="logo me-auto"><img src="assets/img/costa-adeje-gran-hotel-pool-spain-uhd-4k-wallpaper.jpg" alt=""></a> -->
 
-        <h3 class="heading">Our Hotels</h3>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto" href="landingpage.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="landingpage.html">About</a></li>
+          <li><a class="nav-link active" href="Hotels.html">Our Hotels</a></li>
+         <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>  -->
+          <li class="dropdown"><a href="#"><span>Events</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <!-- <li><a href="#">Restaurants</a></li>       PLANNING TO REMOVE RESTAURANTS -->
+         <!--     <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>   --->
+              <li><a href="weddings.html">Meetings & Weddings</a></li>
+              <li><a href="tour.html">Tourism</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link" href="club.html">Club ITC</a></li>
+          <li><a class="nav-link scrollto" href="landingpage.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->  
+      <a href="login.html" class="get-started-btn scrollto">Login</a>
+      <a href="signup.html" class="get-started-btn scrollto">Signup</a>
     </div>
+  </header>
 
-    <nav class="navbar sticky-top navbar-expand-lg bg-dark">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item item">
-              <a class="nav-link" href="Hotels.html">Our Hotels</a>
-            </li>
-            <li class="nav-item item">
-              <a class="nav-link" href="res.html">Restaurant</a>
-            </li>
-            <li class="nav-item item">
-              <a class="nav-link" href="tour.html">Tourism Options</a>
-            </li>
-            <li class="nav-item item">
-              <a class="nav-link active" href="weddings.html">Weddings</a>
-            </li>
-            <li class="nav-item item">
-              <a class="nav-link" href="Contact.html">Contact us</a>
-            </li>
-            <li class="nav-item item">
-              <a class="nav-link" href="about.html">About us</a>
-            </li>
-            
-            
-          </ul>
-          <ul class="navbar-nav px-3">
-            <li class="nav-item item">
-              <a class="nav-link" href="https://localhost:3000/user/login">Login</a>
-            </li>
-            <li class="nav-item item">
-              <a class="nav-link" href="https://localhost:3000/user/signup">Signup</a>
-            </li>
-          </ul>
+<pre>
+
+</pre>
+
+<section class="breadcrumbs">
+  <div class="container">
+
+    <ol>
+      <li><a href="index.html">Home</a></li>
+      <li>Hotels</li>
+    </ol>
+    <h2>Our Hotels</h2>
+
+  </div>
+</section><!-- End Breadcrumbs -->
+
+
+
+
+
+
+<div class="album py-5 bg-light">
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/img/itc-gardenia.png">
+
+          <div class="card-body">
+            <h4>ITC Gardenia,<span class="text-danger"> Bengaluru</span></h4>
+            <p class="card-text">A tribute to the gardens of Bengaluru, ITC Gardenia offers rooms & suites inspired by nature, naturally air-cooled public spaces, signature gourmet & wellness experiences</p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-muted">LEED® Platinum rated Hotel</small>
+            </div>
+          </div>
         </div>
       </div>
-  </nav>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/img/itc-grand-bharat.png">
+
+          <div class="card-body">
+            <h4>ITC Grand Bharat,<span class="text-danger"> Gurgaon</span></h4>
+            <p class="card-text">A tribute to the glory of India & set amidst the Aravalis, the retreat features 104 suites & villas, 27-hole golf course, exquisite culinary & wellness experiences</p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-muted">LEED® Platinum rated Retreat</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/img/itc-grand-central.png">
+
+          <div class="card-body">
+            <h4>ITC Grand Central,<span class="text-danger"> Mumbai</span></h4>
+            <p class="card-text">Inspired by Victorian architecture of old Bombay, the hotel is situated in the business & recreational centre of Parel & offers breath-taking views of the city & sea</p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-muted">LEED® Platinum rated hotel</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/img/itc-grand-chola.png">
+
+          <div class="card-body">
+            <h4>ITC Grand Chola,<span class="text-danger"> Chennai</span></h4>
+            <p class="card-text">Celebrating the glory of the Chola dynasty, the hotel overlooks verdant foliage in the heart of Chennai. Offers 600 rooms, suites & apartments, 10 dining destinations, expansive banqueting, signature wellness & more</p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-muted">LEED® Platinum rated hotel</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/img/itc-grand-goa.png">
+
+          <div class="card-body">
+            <h4>ITC Grand Goa,<span class="text-danger"> Goa</span></h4>
+            <p class="card-text">Nestled in serene south Goa, amidst 1,82,109 m² of lush landscapes & lagoons, the resort offers direct access to the pristine Arossim beach. 6 Exotic dining destinations. Includes Kayakalp-The Royal Spa</p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-muted">Indo-Portuguese village style architecture</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/img/itc-kaktiya.png">
+
+          <div class="card-body">
+            <h4>ITC Kakatiya,<span class="text-danger"> Hyderabad</span></h4>
+            <p class="card-text">ITC Kakatiya recreates an ambience with gentle echoes of Kakatiya dynasty art and sculpture in the heart of Hyderabad. The hotel offers lake-view rooms, award winning cuisine, Signature spa experiences & more.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-muted">LEED® Platinum rated hotel</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/img/itc-kohenur.png">
+
+          <div class="card-body">
+            <h4>ITC Kohenur,<span class="text-danger"> Hyderabad</span></h4>
+            <p class="card-text">Located in the heart of Hyderabad’s HITEC City & overlooking the picturesque Durgam lake, ITC Kohenur is an ode to rare & priceless experiences.
+              
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-muted">LEED® Platinum rated hotel</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/img/itc-maratha.png">
+          
+          <div class="card-body">
+            <h4>ITC Maratha,<span class="text-danger"> Mumbai</span></h4>
+            <p class="card-text">Inspired by the Maratha dynasty & located close to the airport, this luxury hotel in Mumbai combines European and Indian sensibilities with vintage charm and contemporary efficiency</p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-muted">LEED® Platinum rated hotel</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/img/itc-maurya.png">
+
+          <div class="card-body">
+            <h4>ITC Maurya,<span class="text-danger"> New Delhi</span></h4>
+            <p class="card-text">Located in the Diplomatic Enclave, ITC Maurya is a tribute to the great Mauryan Dynasty. Offering spectacular ridge views, award winning cuisine, exquisite accommodation & more.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-muted">LEED® Platinum rated hotel</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/img/itc-rajputana.png">
+
+          <div class="card-body">
+            <h4>ITC Rajputana,<span class="text-danger"> Jaipur</span></h4>
+            <p class="card-text">Designed along the lines of a traditional haveli with its own definition of space & splendour, ITC Rajputana is located in the heart of the city & offers authentic indigenous experiences.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-muted">LEED® Platinum rated hotel</small>
+            </div>
+          </div>
+        </div>
+      </div><div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/img/itc-sonar.png">
+
+          <div class="card-body">
+            <h4>ITC Sonar,<span class="text-danger">Kolkata</span></h4>
+            <p class="card-text">Built like a business resort, ITC Sonar elegantly combines modern design, green spaces and water bodies fluently to bring alive the essence of Kolkata. 1st hotel in the world to earn carbon credits </p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-muted">LEED® Platinum rated hotel</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/img/itc-windsor.png">
+
+          <div class="card-body">
+            <h4>ITC Windsor,<span class="text-danger"> Bengaluru</span></h4>
+            <p class="card-text">Inspired to resonate with a timeless English manor, ITC Windsor efficiently merges old world charm with world class service standards to create distinctive experiences</p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-muted">LEED® Platinum rated hotel</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/img/itc-royal-bengal.png">
+
+          <div class="card-body">
+            <h4>ITC Royal Bengal,<span class="text-danger">Kolkata</span></h4>
+            <p class="card-text">Located in the emerging & commercial district of Kolkata, the one of a kind ITC Royal Bengal is an ode to the region’s cultural heritage & lineage.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-muted">5,630 square meter of banqueting space</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
 
     <!-- <div class="img">
                 <img src="img/img1.jpg" alt="Hotel image" width="400px" height="300px">
             </div> -->
-    <div class="container-fluid container">
+ <!--   <div class="container-fluid container">
         <h3>Our Top Hotels</h3>
         <ul class="list">
-            <li>ITC Gardenia, Bengaluru Luxury</li>
-            <li>ITC Grand Bharat, Gurgaon Featured</li>
-            <li>ITC Grand Central, Mumbai Luxury</li>
-            <li>ITC Grand Chola, Chennai Luxury</li>
-            <li>ITC Grand Goa Resort & Spa, Goa Featured</li>
-            <li>ITC Kakatiya, Hyderabad Luxury</li>
-            <li>ITC Kohenur, Hyderabad Featured</li>
-            <li>ITC Maratha, Mumbai Luxury</li>
-            <li>ITC Maurya, New Delhi Luxury</li>
-            <li>ITC Rajputana, Jaipur Luxury</li>
+            
+            
+            
+           
+           
+            
+            
+            
             <li>ITC Royal Bengal, Kolkata New</li>
-            <li>ITC Sonar, Kolkata Luxury</li>
-            <li>ITC Windsor, Bengaluru Luxury</li>
+            
+            
         </ul>
         <table>
             <caption>Price List for 1 day in INR (exclv. of GST)</caption>
@@ -134,18 +365,91 @@
             </tr>
         </table>
 
+    </div> -->
+
+
+
+    <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>ITC<span>Hotels</span></h3>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Restaurants</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Meetings & Weddings</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Tourism</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Hotels</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">ITC TOP Hotels</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Reserve Now</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Rates</a></li>
+              
+            </ul>
+          </div>
+
+          
+
+        </div>
+      </div>
     </div>
-    <footer>
 
-        <p>Email: <a href="reservations@itchotels.in">reservations@itchotels.in</a></p>
+    <div class="container d-md-flex py-4">
 
-        <p>Operational Hours: 08:00 AM to 08:00 PM IST Toll-free number (Valid for guest calling from within India) 1-800-419-6444 ; 1-800-102-2333
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>ITC</span></strong>. All Rights Reserved
+        </div>
+        
+      </div>
+      <div class="social-links text-center text-md-end pt-3 pt-md-0">
+        <a href="https://twitter.com/ITCHotels" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/ITCHotels" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/itchotels/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.youtube.com/user/itchotels" class="youtube"><i class="bx bxl-youtube"></i></a>
+        <a href="https://www.linkedin.com/company/itc-hotels/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
-        </p>
-        <p>Direct number (Valid for guest calling from outside India) +91124 4816900; +91124 6718000
 
-        </p>
-    </footer>
+
+   <!-- Vendor JS Files -->
+   <script src="assets/vendor/purecounter/purecounter.js"></script>
+   <script src="assets/vendor/aos/aos.js"></script>
+   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+   <script src="assets/vendor/php-email-form/validate.js"></script>
+ 
+   <!-- Template Main JS File -->
+   <script src="assets/js/main.js"></script>
+
+
+    
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </html>

@@ -6,196 +6,54 @@
 
 
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<style>
-body {
-	background: #eeeeee;
-	font-family: 'Varela Round', sans-serif;
-}
-.navbar {
-	color: #fff;
-	background: #926dde !important;
-	padding: 5px 16px;
-	border-radius: 0;
-	border: none;
-	box-shadow: 0 0 4px rgba(0,0,0,.1);
-}
-.navbar img {
-	border-radius: 50%;
-	width: 36px;
-	height: 36px;
-	margin-right: 10px;
-}
-.navbar .navbar-brand {
-	color: #efe5ff;
-	padding-left: 0;
-	padding-right: 50px;
-	font-size: 24px;		
-}
-.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
-	color: #fff;
-}
-.navbar .navbar-brand i {
-	font-size: 25px;
-	margin-right: 5px;
-}
-.search-box {
-	position: relative;
-}	
-.search-box input {
-	padding-right: 35px;
-	min-height: 38px;
-	border: none;
-	background: #faf7fd;
-	border-radius: 3px !important;
-}
-.search-box input:focus {		
-	background: #fff;
-	box-shadow: none;
-}
-.search-box .input-group-addon {
-	min-width: 35px;
-	border: none;
-	background: transparent;
-	position: absolute;
-	right: 0;
-	z-index: 9;
-	padding: 10px 7px;
-	height: 100%;
-}
-.search-box i {
-	color: #a0a5b1;
-	font-size: 19px;
-}
-.navbar .nav-item i {
-	font-size: 18px;
-}
-.navbar .nav-item span {
-	position: relative;
-	top: 3px;
-}
-.navbar .navbar-nav > a {
-	color: #efe5ff;
-	padding: 8px 15px;
-	font-size: 14px;		
-}
-.navbar .navbar-nav > a:hover, .navbar .navbar-nav > a:focus {
-	color: #fff;
-	text-shadow: 0 0 4px rgba(255,255,255,0.3);
-}
-.navbar .navbar-nav > a > i {
-	display: block;
-	text-align: center;
-}
-.navbar .dropdown-item i {
-	font-size: 16px;
-	min-width: 22px;
-}
-.navbar .dropdown-item .material-icons {
-	font-size: 21px;
-	line-height: 16px;
-	vertical-align: middle;
-	margin-top: -2px;
-}
-.navbar .nav-item.open > a, .navbar .nav-item.open > a:hover, .navbar .nav-item.open > a:focus {
-	color: #fff;
-	background: none !important;
-}
-.navbar .dropdown-menu {
-	border-radius: 1px;
-	border-color: #e5e5e5;
-	box-shadow: 0 2px 8px rgba(0,0,0,.05);
-}
-.navbar .dropdown-menu a {
-	color: #777 !important;
-	padding: 8px 20px;
-	line-height: normal;
-	font-size: 15px;
-}
-.navbar .dropdown-menu a:hover, .navbar .dropdown-menu a:focus {
-	color: #333 !important;
-	background: transparent !important;
-}
-.navbar .navbar-nav .active a, .navbar .navbar-nav .active a:hover, .navbar .navbar-nav .active a:focus {
-	color: #fff;
-	text-shadow: 0 0 4px rgba(255,255,255,0.2);
-	background: transparent !important;
-}
-.navbar .navbar-nav .user-action {
-	padding: 9px 15px;
-	font-size: 15px;
-}
-.navbar .navbar-toggle {
-	border-color: #fff;
-}
-.navbar .navbar-toggle .icon-bar {
-	background: #fff;
-}
-.navbar .navbar-toggle:focus, .navbar .navbar-toggle:hover {
-	background: transparent;
-}
-.navbar .navbar-nav .open .dropdown-menu {
-	background: #faf7fd;
-	border-radius: 1px;
-	border-color: #faf7fd;
-	box-shadow: 0 2px 8px rgba(0,0,0,.05);
-}
-.navbar .divider {
-	background-color: #e9ecef !important;
-}
-@media (min-width: 1200px){
-	.form-inline .input-group {
-		width: 350px;
-		margin-left: 30px;
-	}
-}
-@media (max-width: 1199px){
-	.navbar .navbar-nav > a > i {
-		display: inline-block;			
-		text-align: left;
-		min-width: 30px;
-		position: relative;
-		top: 4px;
-	}
-	.navbar .navbar-collapse {
-		border: none;
-		box-shadow: none;
-		padding: 0;
-	}
-	.navbar .navbar-form {
-		border: none;			
-		display: block;
-		margin: 10px 0;
-		padding: 0;
-	}
-	.navbar .navbar-nav {
-		margin: 8px 0;
-	}
-	.navbar .navbar-toggle {
-		margin-right: 0;
-	}
-	.input-group {
-		width: 100%;
-	}
-}
-</style>
-
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/styles.css">
+ 
+  
 
   <title>Clubs</title>
+
+
+
+
+
+
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+ 
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  
+
+
+  
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="asset/css/styles.css">
+
+
+
+
+
+
 
 
 
@@ -207,183 +65,63 @@ body {
 </head>
 
 <body>
-  <section>
-    <div class="overview section">
-      <div class="itc-heading text-center" role="heading">
-        <img src="img/ITCs Hotel Group.png">
-      </div>
-    </div>
+    
 
 
-    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-      <a href="#" class="navbar-brand"><i class="fa fa-hotel"></i>ITC<b class="text-warning">Hotels</b></a>  		
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        
-        <span class="navbar-toggler-icon"><p> Login</p></span>
-      </button>
-
-      
-      <!-- Collection of nav links, forms, and other content for toggling -->
-      <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">		
-        <div class="navbar-nav">
-          <a href="index.html" class="nav-item nav-link"><i class="fa fa-home"></i><span>Home</span></a>
-          <a href="Hotels.html" class="nav-item nav-link"><i class="fa fa-list-ul"></i><span>Our Hotels</span></a>
-          <a href="res.html" class="nav-item nav-link"><i class="fa fa-coffee"></i><span>Restaurant</span></a>
-          <a href="tour.html" class="nav-item nav-link"><i class="fa fa-automobile"></i><span>Tourism</span></a>
-          <a href="weddings.html" class="nav-item nav-link"><i class="fa fa-venus-mars"></i><span>Weddings</span></a>
-          <a href="club.html" class="nav-item nav-link active"><i class="fa fa-credit-card"></i><span>Club ITC</span></a>
-          <a href="Contact.html" class="nav-item nav-link"><i class="fa fa-envelope"></i><span>Contact</span></a>		
-          <a href="about.html" class="nav-item nav-link"><i class="fa fa-mail-forward"></i><span>About us</span></a>
-         
-            
-        </div>
-      </div>
-
-      <div id="navbarCollapse" class="collapse navbar-collapse justify-content-end">		
-        <div class="navbar-nav">
-          <a href="https://localhost:3000/user/login" class="nav-item nav-link"><span class="text-warning">Login</span></a>
-          <a href="https://localhost:3000/user/signup" class="nav-item nav-link"><span class="text-warning">Signup</span></a>
-         
-            
-        </div>
-      </div>
-    </nav>
-
-
-    <!--
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">ITC</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto"><a href="index.html">ITC<span>Hotels</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!--<a href="index.html" class="logo me-auto"><img src="assets/img/costa-adeje-gran-hotel-pool-spain-uhd-4k-wallpaper.jpg" alt=""></a> -->
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Our Hotels</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Restaurant</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Events
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Tourism</a>
-            <a class="dropdown-item" href="#"></a>
-            
-            <a class="dropdown-item" href="#">Weddings & Meetings</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-      </ul>
-    </div>
-  </nav> -->
-
-
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a href="#" class="navbar-brand">Brand<b>Name</b></a>  		
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-     Collection of nav links, forms, and other content for toggling 
-    <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
-      <div class="navbar-nav">
-        <a href="#" class="nav-item nav-link">Home</a>
-        <a href="#" class="nav-item nav-link">About</a>			
-        <div class="nav-item dropdown">
-          <a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle">Services</a>
-          <div class="dropdown-menu">					
-            <a href="#" class="dropdown-item">Web Design</a>
-            <a href="#" class="dropdown-item">Web Development</a>
-            <a href="#" class="dropdown-item">Graphic Design</a>
-            <a href="#" class="dropdown-item">Digital Marketing</a>
-                  </div>
-              </div>
-        <a href="#" class="nav-item nav-link active">Pricing</a>
-        <a href="#" class="nav-item nav-link">Blog</a>
-        <a href="#" class="nav-item nav-link">Contact</a>
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link scrollto" href="landingpage.html">Home</a></li>
+            <li><a class="nav-link scrollto" href="landingpage.html">About</a></li>
+            <li><a class="nav-link scrollto" href="Hotels.html">Our Hotels</a></li>
+           <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li><a href="blog.html">Blog</a></li>  -->
+            <li class="dropdown"><a href="#"><span>Events</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <!-- <li><a href="#">Restaurants</a></li>       PLANNING TO REMOVE RESTAURANTS -->
+           <!--     <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2</a></li>
+                    <li><a href="#">Deep Drop Down 3</a></li>
+                    <li><a href="#">Deep Drop Down 4</a></li>
+                    <li><a href="#">Deep Drop Down 5</a></li>
+                  </ul>
+                </li>   --->
+                <li><a href="weddings.html">Meetings & Weddings</a></li>
+                <li><a href="tour.html">Tourism</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link active" href="club.html">Club ITC</a></li>
+            <li><a class="nav-link scrollto" href="landingpage.html">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+  
+        <a href="login.html" class="get-started-btn scrollto">Login</a>
+        <a href="signup.html" class="get-started-btn scrollto">Signup</a>
       </div>
-      <form class="navbar-form form-inline">
-        <div class="input-group search-box">								
-          <input type="text" id="search" class="form-control" placeholder="Search here...">
-          <div class="input-group-append">
-            <span class="input-group-text">
-              <i class="material-icons">&#xE8B6;</i>
-            </span>
-          </div>
-        </div>
-      </form>
-      <div class="navbar-nav ml-auto action-buttons">
-        <div class="nav-item dropdown">
-          <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle mr-4">Login</a>
-                  <div class="dropdown-menu action-form">
-            <form action="/examples/actions/confirmation.php" method="post">
-              <p class="hint-text">Sign in with your social media account</p>
-              <div class="form-group social-btn clearfix">
-                <a href="#" class="btn btn-secondary facebook-btn float-left"><i class="fa fa-facebook"></i> Facebook</a>
-                <a href="#" class="btn btn-secondary twitter-btn float-right"><i class="fa fa-twitter"></i> Twitter</a>
-              </div>
-              <div class="or-seperator"><b>or</b></div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Username" required="required">
-              </div>
-              <div class="form-group">
-                <input type="password" class="form-control" placeholder="Password" required="required">
-              </div>
-              <input type="submit" class="btn btn-primary btn-block" value="Login">
-              <div class="text-center mt-2">
-                <a href="#">Forgot Your password?</a>
-              </div>
-            </form>
-                  </div>
-        </div>
-        <div class="nav-item dropdown">
-          <a href="#" data-toggle="dropdown" class="btn btn-primary dropdown-toggle sign-up-btn">Sign up</a>
-                  <div class="dropdown-menu action-form">
-            <form action="/examples/actions/confirmation.php" method="post">
-              <p class="hint-text">Fill in this form to create your account!</p>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Username" required="required">
-              </div>
-              <div class="form-group">
-                <input type="password" class="form-control" placeholder="Password" required="required">
-              </div>
-              <div class="form-group">
-                <input type="password" class="form-control" placeholder="Confirm Password" required="required">
-              </div>
-              <div class="form-group">
-                <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms &amp; Conditions</a></label>
-              </div>
-              <input type="submit" class="btn btn-primary btn-block" value="Sign up">
-            </form>
-          </div>
-        </div>
-          </div>
-    </div>
-  </nav>  -->
+    </header><!-- End Header -->
 
 
+<!-- ======= Breadcrumbs ======= -->
+<section class="breadcrumbs">
+  <div class="container">
 
+    <ol>
+      <li><a href="index.html">Home</a></li>
+      <li>Club ITC</li>
+    </ol>
+    
 
-
-
-
-
-
-   
-
-
-
+  </div>
+</section><!-- End Breadcrumbs -->
 
 
     <img src="img/Clubsitc.png">
@@ -694,67 +432,73 @@ body {
       </div>
     </div>
     </div>
+<section>
+<div id="footer">
+    <footer id="footer">
 
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white pt-5 pb-4">
-      <div class="container text-center text-md-left">
-        <div class="row text-center text-md-left">
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">ITC Hotel Groups</h5>
-            <p>Copyright © ITC Limited 2021. All rights reserved.</p>
-          </div>
-
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Explore</h5>
-            <p>
-              <a href="about.html" class="text-white" style="text-decoration: none;">Our Story</a>
-            </p>
-            <p>
-              <a href="Hotels.html" class="text-white" style="text-decoration: none;">Hotels & Resorts</a>
-            </p>
-            <p>
-              <a href="res.html" class="text-white" style="text-decoration: none;">Dining</a>
-            </p>
-            <p>
-              <a href="weddings.html" class="text-white" style="text-decoration: none;">Weddings & Meetings</a>
-            </p>
-          </div>
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Membership</h5>
-            <p>
-              <a href="club.html" class="text-white" style="text-decoration: none;">Club ITC</a>
-            </p>
-            <p>
-              <a href="club.html" class="text-white" style="text-decoration: none;">Club ITC Culinaire</a>
-            </p>
-            <p>
-              <a href="club.html" class="text-white" style="text-decoration: none;">Club ITC Cards</a>
-            </p>
-            <p>
-              <a href="club.html" class="text-white" style="text-decoration: none;">Rewards</a>
-            </p>
-          </div>
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacts</h5>
-            <p>
-              <i></i> Email: reservations@itchotels.in
-            </p>
-            <p>
-              <i></i> Work Hours: 08:00 to 20:00 IST
-            </p>
-            <p>
-              <i></i> Toll-free number (within India)
-            </p>
-            <p>
-              <i></i> 1-800-419-6444 ; 1-800-102-2333
-            </p>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+  
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>ITC<span>Hotels</span></h3>
+            </div>
+  
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
+                
+              </ul>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Restaurants</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Meetings & Weddings</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Tourism</a></li>
+                
+              </ul>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Hotels</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">ITC TOP Hotels</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Reserve Now</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Rates</a></li>
+                
+              </ul>
+            </div>
+  
+            
+  
           </div>
         </div>
       </div>
+  
+      <div class="container d-md-flex py-4">
+  
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>ITC</span></strong>. All Rights Reserved
+          </div>
+          
+        </div>
+        <div class="social-links text-center text-md-end pt-3 pt-md-0">
+          <a href="https://twitter.com/ITCHotels" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/ITCHotels" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/itchotels/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.youtube.com/user/itchotels" class="youtube"><i class="bx bxl-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/itc-hotels/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
       </div>
     </footer>
-    <!-- Footer -->
+    </div>
+    </section><!-- End Footer -->
 
 
 
