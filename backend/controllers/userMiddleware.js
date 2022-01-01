@@ -9,14 +9,12 @@ exports.verifyJWT = async (req, res, next) => {
     try {
         const token = req.cookies.usertoken;
         if (!token) {
-            console.log('No token, login to continue');
-            return res.redirect('/user/login');
+            return res.status(401).json({ error: "Login to continue" });
         }
         const decoded = jwt.verify(token, secretKey);
         const user = await User.findById(decoded.user.id);
         if (!user) {
-            console.log('No user found');
-            res.redirect('/user/login');
+            return res.status(401).json({ error: "Login to continue" });
         }
         req.token = token;
         req.user = user;

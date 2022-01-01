@@ -1,0 +1,134 @@
+.dashboard-banner {
+  background: url("../images/dashboard_banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.user-info-container {
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 30vh 3rem;
+}
+
+.user-info-card {
+  text-align: center;
+  padding: 1.75rem 4rem;
+  background: rgba(255, 255, 255, 0.8);
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.user-info-card h2 {
+  position: relative;
+  line-height: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 1.7rem;
+}
+
+.user-info-card h2::after {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  background: #aba396;
+  height: 3px;
+  width: 100%;
+  bottom: -10px;
+  left: 0;
+}
+
+.user-info-card h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.profile-edit-container {
+  max-width: 120rem;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.profile-edit-card {
+  padding: 2rem max(2rem, 6vw);
+  border: 1px solid #d6d4d4;
+  border-radius: 8px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-bottom: 2.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile-header h1 {
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+
+.edit-btn button {
+  cursor: pointer;
+  border: 1px solid #414141;
+  padding: 4px 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background: transparent;
+}
+
+.edit-btn button:hover {
+  color: #666666;
+  border: 1px solid #666666;
+}
+
+.col {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.type-1 {
+  width: 45%;
+  min-width: 30rem;
+}
+
+.type-1 input,
+.type-1 select {
+  font-family: inherit;
+  padding: 2rem;
+  padding: 8px 13px;
+  color: #414141;
+  font-weight: 400;
+  width: 100%;
+  border: 1px solid #cfd8dc;
+  transition: 0.4s all;
+  line-height: 1.4;
+  border-radius: 3px;
+}
+
+.type-1 input:focus,
+.type-1 select:focus {
+  outline: none;
+}
+
+.type-1 ::placeholder {
+  font-style: italic;
+  font-size: 1.3rem;
+  color: #a5a5a5;
+}
+
+.col-placeholder {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.7px;
+  font-weight: 500;
+}

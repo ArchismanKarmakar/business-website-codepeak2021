@@ -10,6 +10,7 @@ const app = express();
 // Routers
 const indexRouter = require('./routes/index');
 const userRouter = require('./routes/user');
+const dashboardRouter = require('./routes/dashboard');
 const feedbackRouter = require('./routes/feedback');
 
 // Set view engine as ejs
@@ -26,6 +27,7 @@ app.use(cookieParser());
 
 app.use('/', indexRouter);
 app.use('/user', userRouter);
+app.use('/user', dashboardRouter);
 app.use('/user', feedbackRouter);
 
 const port = 5000
