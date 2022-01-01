@@ -17,7 +17,7 @@ const Login = () => {
         const data = await res.json();
         if (res.status === 200) {
             window.alert(data.msg);
-            navigate('/');
+            navigate('/user/profile');
         } else {
             window.alert(data.error);
         }
