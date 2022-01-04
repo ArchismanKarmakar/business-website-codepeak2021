@@ -18,11 +18,13 @@ function App() {
             headers: { "Content-Type": "application/json" },
         });
         const data = await res.json();
+        console.log("data = ", res);
         if (res.status === 200) return res.user;
         return null;
     };
-    useEffect(() => {
-        const user = getUser();
+    useEffect(async () => {
+        const user = await getUser();
+        console.log(user);
         setUser(user);
     }, []);
     return (
