@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { Link, useNavigate, Navigate } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../images/logo.png";
 import "./Auth.css";
 
 const Login = () => {
-    const navigate = useNavigate();
-    const [loggedUser, setLoggedUser] = useState(false);
     const [user, setUser] = useState({ email: "", password: "" });
     const handleLoginInput = (e) =>
         setUser({ ...user, [e.target.name]: e.target.value });
@@ -23,22 +21,6 @@ const Login = () => {
             window.alert(data.error);
         }
     };
-    const checkLoggedUser = async () => {
-        const res = await fetch("/user/check");
-        console.log(res);
-        if (res.status !== 200) {
-            setLoggedUser(false);
-        } else {
-            setLoggedUser(true);
-        }
-    };
-    // useEffect(() => {
-    //     checkLoggedUser();
-    // }, []);
-
-    if (loggedUser) {
-        return <Navigate to="/" />;
-    }
 
     return (
         <div className="form-wrapper">
