@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import { Link, NavLink } from "react-router-dom";
+import React from "react";
+import { NavLink } from "react-router-dom";
 import Dropdown from "./dropdown";
 const Navbar = (props) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light mb-3">
             <div className="container-fluid d-flex flex-grow-1">
                 <button
-                    class="navbar-toggler"
+                    className="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
@@ -14,7 +14,7 @@ const Navbar = (props) => {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
                 <div
                     className="collapse navbar-collapse d-flex flex-grow-1 text-right"

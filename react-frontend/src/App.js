@@ -9,14 +9,17 @@ import Login from "./auth/Login";
 import Register from "./auth/Register";
 import DashBoard from "./user/DashBoard";
 import Navbar from "./components/navbar";
+import Home from "./components/home";
 function App() {
     const [user, setUser] = useState(null);
     const getUser = async () => {
-        const user = await fetch("/user/profile", {
+        const res = await fetch("/user/profile", {
             method: "GET",
             headers: { "Content-Type": "application/json" },
         });
-        return user;
+        const data = await res.json();
+        if (res.status === 200) return res.user;
+        return null;
     };
     useEffect(() => {
         const user = getUser();
@@ -30,6 +33,7 @@ function App() {
                     <Route path="/user/login" element={<Login />} />
                     <Route path="/user/signup" element={<Register />} />
                     <Route path="/user/profile" element={<DashBoard />} />
+                    <Route path="/" element={<Home />} />
                 </Routes>
             </Router>
         </React.Fragment>
