@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Navigate,
+} from "react-router-dom";
 
 import "./App.css";
 
@@ -18,13 +23,11 @@ function App() {
             headers: { "Content-Type": "application/json" },
         });
         const data = await res.json();
-        console.log("data = ", res);
-        if (res.status === 200) return res.user;
+        if (res.status === 201) return data.user;
         return null;
     };
     useEffect(async () => {
         const user = await getUser();
-        console.log(user);
         setUser(user);
     }, []);
     return (
@@ -32,8 +35,22 @@ function App() {
             <Router>
                 <Navbar user={user} />
                 <Routes>
-                    <Route path="/user/login" element={<Login />} />
-                    <Route path="/user/signup" element={<Register />} />
+                    <Route
+                        path="/user/login"
+                        element={
+                            user ? <Navigate to="/user/profile" /> : <Login />
+                        }
+                    />
+                    <Route
+                        path="/user/signup"
+                        element={
+                            user ? (
+                                <Navigate to="/user/profile" />
+                            ) : (
+                                <Register />
+                            )
+                        }
+                    />
                     <Route path="/user/profile" element={<DashBoard />} />
                     <Route path="/" element={<Home />} />
                 </Routes>
