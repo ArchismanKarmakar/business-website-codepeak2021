@@ -143,8 +143,7 @@ router.post("/login", async (req, res) => {
 
 router.get("/logout", (req, res) => {
     try {
-        console.log("You are logged out");
-        res.clearCookie("usertoken").redirect("/user/login");
+        res.status(200).clearCookie("usertoken").json({msg: "You are logged out"});
     } catch (err) {
         res.status(500).send("Some error occured");
     }
