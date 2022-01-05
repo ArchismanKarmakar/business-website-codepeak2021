@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link, useNavigate} from 'react-router-dom';
 
 class Dropdown extends Component {
     state = {
@@ -12,6 +13,16 @@ class Dropdown extends Component {
         let show = !cshow;
         this.setState({ show });
     };
+    Logout = async () =>{
+        const res = await fetch("/user/logout");
+        const data = await res.json();
+        if(res.status === 200){
+            window.alert(data.msg);
+            window.location = "/user/login";
+        }else{
+            window.alert(data.error);
+        }
+    }
     render() {
         let cn =
             this.state.show === true
@@ -39,12 +50,12 @@ class Dropdown extends Component {
                     onMouseLeave={this.HandleLeave}
                 >
                     <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/user/profile">
                             Dashboard
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="dropdown-item" href="#">
+                        <a onClick={this.Logout} className="dropdown-item">
                             Logout
                         </a>
                     </li>
