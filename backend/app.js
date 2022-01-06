@@ -12,6 +12,7 @@ const indexRouter = require('./routes/index');
 const userRouter = require('./routes/user');
 const dashboardRouter = require('./routes/dashboard');
 const feedbackRouter = require('./routes/feedback');
+const paymentRouter = require('./routes/payment_gateway');
 
 // Set view engine as ejs
 app.set('view engine', 'ejs');
@@ -29,6 +30,7 @@ app.use('/', indexRouter);
 app.use('/user', userRouter);
 app.use('/user', dashboardRouter);
 app.use('/user', feedbackRouter);
+app.use('/payment', paymentRouter);
 
 const port = 5000
 app.listen(port, () => console.log(`Server is running at port ${port}`));
