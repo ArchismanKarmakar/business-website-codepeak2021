@@ -50,6 +50,9 @@ router.post("/signup", async (req, res) => {
     if (password !== cpassword) {
         return res.status(401).json({ error: "Passwords do not match" });
     }
+    if (password.length < 6) {
+        return res.status(401).json({ error: "Passwords should be atleast 6 characters" });
+    }
     try {
         let user = await User.findOne({ email });
         if (user) {
