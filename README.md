@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+### Mother Program: CODEPEAK by IIT Guwahati & IIT Patna. [Codepeak](https://codepeak.tech)
+### Contributing Period: Dec 3rd 2021 to Jan 6th 2022
 
 ## This project is for getting a hotel business ready website similar to ITC Hotels website. So, let's get started. It will be a very good practice. So, let's begin!
 
