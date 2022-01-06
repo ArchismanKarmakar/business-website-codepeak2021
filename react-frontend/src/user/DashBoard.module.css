@@ -103,6 +103,7 @@
 .type-1 input,
 .type-1 select {
   font-family: inherit;
+  font-size: 1.25rem;
   padding: 2rem;
   padding: 8px 13px;
   color: #414141;
