@@ -6,29 +6,7 @@ body {
   position: relative;
   max-width: 38rem;
   margin: 0 auto;
-  min-height: 100vh;
-}
-
-a {
-  font-size: 1.6rem;
-  text-decoration: none;
-  background-color: transparent;
-  outline: none;
-  cursor: pointer;
-  transition: 0.2s color ease-in-out;
-  color: #455a64;
-}
-
-input {
-  width: 100%;
-  color: #546e7a;
-  border: 1px solid #cfd8dc;
-  font-weight: 300;
-  transition: 0.4s all;
-}
-
-input:focus {
-  outline: none;
+  min-height: calc(100vh - 61px);
 }
 
 .form-container {
@@ -44,19 +22,20 @@ input:focus {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   animation-name: fade;
   animation-duration: 1s;
+  font-size: 1.15rem;
 }
 
-@keyframes fade{
-  0%{
+@keyframes fade {
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
 
 .form-logo {
-  width: 10rem;
+  width: 9.5rem;
   margin: 0 auto 3.5rem;
 }
 
@@ -68,16 +47,29 @@ input:focus {
   margin-bottom: 1.75rem;
 }
 
-input,
-button {
+.form-control {
   padding: 9px 13px;
   line-height: 1.4;
   border-radius: 3px;
   font-size: inherit;
   font-family: inherit;
+  width: 100%;
+  color: #546e7a;
+  border: 1px solid #cfd8dc;
+  font-weight: 300;
+  transition: 0.4s all;
+}
+
+.form-fields input:focus {
+  outline: none;
 }
 
 .btn-account {
+  padding: 9px 13px;
+  line-height: 1.4;
+  border-radius: 3px;
+  font-size: inherit;
+  font-family: inherit;
   background: #455a64;
   border: 1px solid #b0bec5;
   color: #fff;
@@ -87,8 +79,22 @@ button {
   width: 100%;
 }
 
+.account-toggle a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s color ease-in-out;
+  color: #455a64;
+}
+
 .account-toggle {
   margin-top: 1.75rem;
   display: flex;
   justify-content: space-between;
+}
+
+.account-toggle p {
+  font-size: 1.2rem;
 }

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import logo from "../images/logo.png";
-import "./Auth.css";
+import styles from "./Auth.module.css";
 
 const Login = () => {
     const [user, setUser] = useState({ email: "", password: "" });
@@ -23,39 +23,39 @@ const Login = () => {
     };
 
     return (
-        <div className="form-wrapper">
-            <div className="form-container">
-                <div className="form-logo">
+        <div className={styles["form-wrapper"]}>
+            <div className={styles["form-container"]}>
+                <div className={styles["form-logo"]}>
                     <img src={logo} alt="logo" />
                 </div>
                 <div>
-                    <div className="form-fields">
+                    <div className={styles["form-fields"]}>
                         <input
                             name="email"
                             type="text"
-                            className="form-control"
+                            className={styles["form-control"]}
                             id="email"
                             placeholder="E-mail"
                             value={user.email}
                             onChange={handleLoginInput}
                         />
                     </div>
-                    <div className="form-fields">
+                    <div className={styles["form-fields"]}>
                         <input
                             name="password"
                             type="password"
-                            className="form-control"
+                            className={styles["form-control"]}
                             id="password"
                             placeholder="Password"
                             value={user.password}
                             onChange={handleLoginInput}
                         />
                     </div>
-                    <button onClick={userLogin} className="btn-account">
+                    <button onClick={userLogin} className={styles["btn-account"]}>
                         Submit
                     </button>
                 </div>
-                <div className="account-toggle">
+                <div className={styles["account-toggle"]}>
                     <p>No account?</p>
                     <Link to="/user/signup">Sign Up</Link>
                 </div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import logo from "../images/logo.png";
-import "./Auth.css";
+import classes from "./Auth.module.css";
 
 const Register = () => {
     const navigate = useNavigate();
@@ -28,17 +28,17 @@ const Register = () => {
         }
     };
     return (
-        <div className="form-wrapper">
-            <div className="form-container">
-                <div className="form-logo">
+        <div className={classes["form-wrapper"]}>
+            <div className={classes["form-container"]}>
+                <div className={classes["form-logo"]}>
                     <img src={logo} alt="logo" />
                 </div>
                 <div>
-                    <div className="form-fields">
+                    <div className={classes["form-fields"]}>
                         <input
                             name="username"
                             type="text"
-                            className="form-control"
+                            className={classes["form-control"]}
                             id="name"
                             placeholder="Username"
                             autoComplete="off"
@@ -46,11 +46,11 @@ const Register = () => {
                             onChange={handleInput}
                         />
                     </div>
-                    <div className="form-fields">
+                    <div className={classes["form-fields"]}>
                         <input
                             name="email"
                             type="email"
-                            className="form-control"
+                            className={classes["form-control"]}
                             id="email"
                             placeholder="E-mail"
                             autoComplete="off"
@@ -58,11 +58,11 @@ const Register = () => {
                             onChange={handleInput}
                         />
                     </div>
-                    <div className="form-fields">
+                    <div className={classes["form-fields"]}>
                         <input
                             name="password"
                             type="password"
-                            className="form-control"
+                            className={classes["form-control"]}
                             id="password"
                             placeholder="Password"
                             autoComplete="off"
@@ -70,11 +70,11 @@ const Register = () => {
                             onChange={handleInput}
                         />
                     </div>
-                    <div className="form-fields">
+                    <div className={classes["form-fields"]}>
                         <input
                             name="cpassword"
                             type="password"
-                            className="form-control"
+                            className={classes["form-control"]}
                             id="cpassword"
                             placeholder="Confirm Password"
                             autoComplete="off"
@@ -82,11 +82,11 @@ const Register = () => {
                             onChange={handleInput}
                         />
                     </div>
-                    <button onClick={userSignup} className="btn-account">
+                    <button onClick={userSignup} className={classes["btn-account"]}>
                         Submit
                     </button>
                 </div>
-                <div className="account-toggle">
+                <div className={classes["account-toggle"]}>
                     <p>Have an account?</p>
                     <Link to="/user/login">Sign In</Link>
                 </div>
