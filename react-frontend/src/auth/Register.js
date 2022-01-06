@@ -4,7 +4,6 @@ import logo from "../images/logo.png";
 import classes from "./Auth.module.css";
 
 const Register = () => {
-    const navigate = useNavigate();
     const [user, setUser] = useState({
         username: "",
         email: "",
@@ -22,7 +21,7 @@ const Register = () => {
         const data = await res.json();
         if (res.status === 200) {
             window.alert(data.msg);
-            navigate("/login");
+            window.location = "/user/profile";
         } else {
             window.alert(data.error);
         }

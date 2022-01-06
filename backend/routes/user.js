@@ -42,14 +42,6 @@ router.get("/dashboard", userMiddleware.verifyJWT, async (req, res) => {
     res.sendFile(path.join(__dirname, "../../frontend", "dashboard.html"));
 });
 
-router.get("/check", userMiddleware.verifyLoggedUser, (req, res) => {
-    try {
-        res.status(200).json({ msg: "You can view this resource" });
-    } catch (err) {
-        res.status(500).json({ error: "Some error occured" });
-    }
-});
-
 router.post("/signup", async (req, res) => {
     const { username, email, password, cpassword } = req.body;
     if (!username || !email || !password || !cpassword) {
@@ -73,19 +65,17 @@ router.post("/signup", async (req, res) => {
         encryptedPassword += IV;
         user.password = encryptedPassword;
         await user.save();
-        // login user with jwt
-        const payload = {
-            user: { id: user.id },
-        };
-        const token = jwt.sign(payload, secretKey, {
-            expiresIn: 24 * 60 * 60 * 1000,
-        });
+
+        // login user with jwt after signup
+        const payload = { user: { id: user.id } };
+
+        const token = jwt.sign(payload, secretKey, { expiresIn: 24 * 60 * 60 * 1000 });
+
         res.cookie("usertoken", token, {
             expires: new Date(Date.now() + 24 * 60 * 60 * 1000),
             httpOnly: true,
-        })
-            .status(200)
-            .json({ msg: "Successfully signed up", token: token });
+        }).status(200).json({ msg: "Successfully signed up", token: token });
+
     } catch (err) {
         res.status(500).send("Error in Saving");
     }
@@ -124,18 +114,15 @@ router.post("/login", async (req, res) => {
         }
 
         // login user with jwt
-        const payload = {
-            user: { id: user.id },
-        };
-        const token = jwt.sign(payload, secretKey, {
-            expiresIn: 24 * 60 * 60 * 1000,
-        });
+        const payload = { user: { id: user.id } };
+
+        const token = jwt.sign(payload, secretKey, { expiresIn: 24 * 60 * 60 * 1000 });
+
         res.cookie("usertoken", token, {
             expires: new Date(Date.now() + 24 * 60 * 60 * 1000),
             httpOnly: true,
-        })
-            .status(200)
-            .json({ msg: "Successfully logged in", token: token });
+        }).status(200).json({ msg: "Successfully logged in", token: token });
+
     } catch (err) {
         res.status(500).send("Some error occured");
     }
@@ -143,7 +130,7 @@ router.post("/login", async (req, res) => {
 
 router.get("/logout", (req, res) => {
     try {
-        res.status(200).clearCookie("usertoken").json({msg: "You are logged out"});
+        res.status(200).clearCookie("usertoken").json({ msg: "You are logged out" });
     } catch (err) {
         res.status(500).send("Some error occured");
     }
